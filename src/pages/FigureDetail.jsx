@@ -123,7 +123,7 @@ export default function FigureDetail() {
     ].filter(Boolean).join(' • ')
   )
 
-  const seoFigureTitle = hasSubtitle ? `${fig.name} — ${fig.altTitle}` : fig.name
+  const seoFigureTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name
 
   // Canonical URL should match your actual route: /figure/:id
   const canonicalUrl = `https://dragonballactionfigures.com/figure/${fig.id}`
@@ -138,18 +138,21 @@ export default function FigureDetail() {
 
   return (
     <section className="detail-grid">
+      const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name;
+      const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle;
+
       <Helmet>
-        <title>{seoFigureTitle}</title>
+        <title>{seoFigureTitle} - Dragon Ball Action Figures</title>
         <meta name="description" content={seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
 
-        <meta property="og:title" content={`${seoFigureTitle}`} />
+        <meta property="og:title" content={`${seoFigureTitle} - Dragon Ball Action Figures`} />
         <meta property="og:description" content={seoDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={ogImage} />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${seoFigureTitle}`} />
+        <meta name="twitter:title" content={`${seoFigureTitle} - Dragon Ball Action Figures`} />
         <meta name="twitter:description" content={seoDescription} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
