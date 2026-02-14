@@ -40,9 +40,9 @@ export default function Home() {
       <HeroCarousel figures={figures} fullBleed fullScreen />
 
       {/* Tagline + description */}
-      <p className="home-tagline">The #1 database for Dragon Ball action figures!</p>
+      <p className="home-tagline">The #1 database for Dragon Ball action figures</p>
       <p className="home-desc">
-        Here you can find the most accurate, detailed, and up-to-date information on all S.H.Figuarts Dragon Ball action figures, including third party.
+        Here you can find the most accurate, detailed, and up-to-date information on all S.H.Figuarts and third party Dragon Ball action figures.
         You can search for any figure in the database either by name or accessories.
         You can also sort and track your S.H.Figuarts collection with an interactable checklist that keeps your selections saved when revisting the site.
         Notice any incorrect information that needs correcting or have a suggestion on how the site can be improved? Please send an email to dragonballactionfigures@gmail.com or by messaging me on Instagram @pavplays.

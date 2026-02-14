@@ -12,23 +12,26 @@ import ThirdPartyBrand from './pages/ThirdPartyBrand'
 import Home from './pages/Home'
 import { SettingsProvider } from './state/SettingsContext'
 import { DataProvider } from './state/DataContext'
+import { HelmetProvider } from "react-helmet-async";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <SettingsProvider>
-      <DataProvider>
-        <Router>
-          <Routes>
-            <Route element={<App />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/shfiguarts" element={<Reference />} />
-              <Route path="/figure/:id" element={<FigureDetail />} />
-              <Route path="/checklist" element={<Checklist />} />
-              <Route path="/third-party/:brand" element={<ThirdPartyBrand />} />
-            </Route>
-          </Routes>
-        </Router>
-      </DataProvider>
-    </SettingsProvider>
+    <HelmetProvider>
+      <SettingsProvider>
+        <DataProvider>
+          <Router>
+            <Routes>
+              <Route element={<App />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/shfiguarts" element={<Reference />} />
+                <Route path="/figure/:id" element={<FigureDetail />} />
+                <Route path="/checklist" element={<Checklist />} />
+                <Route path="/third-party/:brand" element={<ThirdPartyBrand />} />
+              </Route>
+            </Routes>
+          </Router>
+        </DataProvider>
+      </SettingsProvider>
+    </HelmetProvider>
   </React.StrictMode>
-)
+);

@@ -2,6 +2,7 @@ import React, { useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useData } from '../state/DataContext'
 import Slideshow from '../components/Slideshow'
+import { Helmet } from "react-helmet-async";
 
 export default function FigureDetail() {
   const { id } = useParams()
@@ -98,8 +99,61 @@ export default function FigureDetail() {
     !!fig.altTitle &&
     fig.altTitle.trim().toLowerCase() !== (fig.name || '').trim().toLowerCase()
 
+  // ---------- SEO (title + description) ----------
+  const toText = (v) => (Array.isArray(v) ? v.filter(Boolean).join(', ') : (v ?? '').toString().trim())
+
+  const clamp = (s, max = 160) => {
+    const oneLine = s.replace(/\s+/g, ' ').trim()
+    return oneLine.length > max ? oneLine.slice(0, max - 1).trimEnd() + '…' : oneLine
+  }
+
+  const typesText = typesArr.length ? typesArr.join(', ') : (fig.type || '—')
+
+  // Use your existing formatRelease() for display-friendly date text
+  const releaseText = fig.releaseDate ? formatRelease(fig.releaseDate, fig.releasePrecision) : '—'
+
+  // Build a meta description from figure info
+  const seoDescription = clamp(
+    [
+      fig.brand ? `Brand: ${fig.brand}` : null,
+      fig.series ? `Series: ${fig.series}` : null,
+      typesText && typesText !== '—' ? `Type: ${typesText}` : null,
+      showEvent ? `Event: ${fig.event}` : null,
+      releaseText && releaseText !== '—' ? `Release Date: ${releaseText}` : null,
+    ].filter(Boolean).join(' • ')
+  )
+
+  const seoFigureTitle = hasSubtitle ? `${fig.name} — ${fig.altTitle}` : fig.name
+
+  // Canonical URL should match your actual route: /figure/:id
+  const canonicalUrl = `https://dragonballactionfigures.com/figure/${fig.id}`
+
+  // Pick an OG image (first slideshow image if available)
+  const ogImagePath = Array.isArray(fig.images) && fig.images.length ? fig.images[0] : null
+  const ogImage =
+    ogImagePath
+      ? (ogImagePath.startsWith('http') ? ogImagePath : `https://dragonballactionfigures.com${ogImagePath.startsWith('/') ? ogImagePath : `/${ogImagePath}`}`)
+      : 'https://dragonballactionfigures.com/seo/og-home.jpg'
+
+
   return (
     <section className="detail-grid">
+      <Helmet>
+        <title>{seoFigureTitle}</title>
+        <meta name="description" content={seoDescription} />
+        <link rel="canonical" href={canonicalUrl} />
+
+        <meta property="og:title" content={`${seoFigureTitle}`} />
+        <meta property="og:description" content={seoDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={ogImage} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${seoFigureTitle}`} />
+        <meta name="twitter:description" content={seoDescription} />
+        <meta name="twitter:image" content={ogImage} />
+      </Helmet>
+
       <div>
         {/* Back button */}
         <button className="badge back-btn" onClick={goBack} aria-label="Go back">
