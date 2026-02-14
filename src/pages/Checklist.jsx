@@ -4,14 +4,6 @@ import { useData } from '../state/DataContext'
 import SortDropdown, { SORTS, sortFigures } from '../components/SortDropdown'
 import { Helmet } from "react-helmet-async";
 
-<Helmet>
-  <title>Checklist - Dragon Ball Action Figures</title>
-  <meta
-    name="description"
-    content="Track your S.H.Figuarts Dragon Ball collection."
-  />
-</Helmet>
-
 export default function Checklist() {
   const { figures } = useData()
 
@@ -59,6 +51,14 @@ export default function Checklist() {
 
   return (
     <section>
+      <Helmet>
+        <title>Checklist - Dragon Ball Action Figures</title>
+        <meta
+          name="description"
+          content="Track your S.H.Figuarts Dragon Ball collection."
+        />
+      </Helmet>
+
       <div className="sort-row">
         <h1 style={{ margin: 0 }}>S.H.Figuarts Checklist</h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>

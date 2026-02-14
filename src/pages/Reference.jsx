@@ -5,23 +5,23 @@ import FigureCard from '../components/FigureCard'
 import BrandBlurb from '../components/BrandBlurb'
 import { Helmet } from "react-helmet-async";
 
-<Helmet>
-  <title>S.H.Figuarts - Dragon Ball Action Figures</title>
-  <meta
-    name="description"
-    content="Browse info on all S.H.Figuarts Dragon Ball action figures."
-  />
-</Helmet>
-
-export default function Reference(){
+export default function Reference() {
   const { figures } = useData()
   const [sortMode, setSortMode] = useState(SORTS.NEW_TO_OLD)
 
   const sorted = useMemo(() => sortFigures(figures.filter(f => f.brand === 'S.H.Figuarts'), sortMode), [figures, sortMode])
 
-return (
+  return (
     <section>
-      <h1 style={{margin:0}}>S.H.Figuarts</h1>
+      <Helmet>
+        <title>S.H.Figuarts - Dragon Ball Action Figures</title>
+        <meta
+          name="description"
+          content="Browse info on all S.H.Figuarts Dragon Ball action figures."
+        />
+      </Helmet>
+
+      <h1 style={{ margin: 0 }}>S.H.Figuarts</h1>
 
       <div className="brand-intro-row">
         <BrandBlurb brand="S.H.Figuarts" />
