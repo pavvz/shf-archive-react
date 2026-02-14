@@ -123,8 +123,6 @@ export default function FigureDetail() {
     ].filter(Boolean).join(' • ')
   )
 
-  const seoFigureTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name
-
   // Canonical URL should match your actual route: /figure/:id
   const canonicalUrl = `https://dragonballactionfigures.com/figure/${fig.id}`
 
@@ -135,12 +133,11 @@ export default function FigureDetail() {
       ? (ogImagePath.startsWith('http') ? ogImagePath : `https://dragonballactionfigures.com${ogImagePath.startsWith('/') ? ogImagePath : `/${ogImagePath}`}`)
       : 'https://dragonballactionfigures.com/seo/og-home.jpg'
 
+  const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name;
+  const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle;
 
   return (
     <section className="detail-grid">
-      const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name;
-      const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle;
-
       <Helmet>
         <title>{seoFigureTitle} - Dragon Ball Action Figures</title>
         <meta name="description" content={seoDescription} />
