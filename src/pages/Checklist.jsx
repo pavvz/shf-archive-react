@@ -2,6 +2,15 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useData } from '../state/DataContext'
 import SortDropdown, { SORTS, sortFigures } from '../components/SortDropdown'
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>Checklist - Dragon Ball Action Figures</title>
+  <meta
+    name="description"
+    content="Track your S.H.Figuarts Dragon Ball collection."
+  />
+</Helmet>
 
 export default function Checklist() {
   const { figures } = useData()

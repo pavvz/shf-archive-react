@@ -3,6 +3,15 @@ import { useData } from '../state/DataContext'
 import SortDropdown, { SORTS, sortFigures } from '../components/SortDropdown'
 import FigureCard from '../components/FigureCard'
 import BrandBlurb from '../components/BrandBlurb'
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>S.H.Figuarts - Dragon Ball Action Figures</title>
+  <meta
+    name="description"
+    content="Browse info on all S.H.Figuarts Dragon Ball action figures."
+  />
+</Helmet>
 
 export default function Reference(){
   const { figures } = useData()
