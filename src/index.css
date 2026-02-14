@@ -58,6 +58,47 @@ header.site-header {
   align-items: center;
   padding: 12px 0;
 }
+
+/* ===== Mobile header layout ===== */
+@media (max-width: 900px) {
+  .nav-row {
+    grid-template-columns: 1fr;   /* stack: logo, menu, tools */
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .logo-wrap {
+    justify-content: center;
+  }
+
+  nav.site-menu {
+    justify-content: center;
+    flex-wrap: wrap;             /* allow 2nd row */
+    gap: 12px;
+  }
+
+  .tools {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search {
+    flex: 1 1 100%;
+    max-width: 520px;            /* keep search from being gigantic */
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img { height: 32px; }
+
+  nav.site-menu > a,
+  .menu-trigger {
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+}
+
 .logo-wrap { display:flex; align-items:center; gap:12px; }
 .logo-img {
   width: auto; height: 40px; object-fit: contain;
@@ -699,6 +740,25 @@ nav.site-menu > a:focus-visible,
 .home-tagline { margin: 8px 0 6px; font-weight: 700; font-size: 35px; }
 .home-desc { margin: 0 0 50px; color: var(--muted, var(--text-muted, #8b8f98)); max-width: 80ch; }
 
+@media (max-width: 640px) {
+  .home-tagline {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .home-desc {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+  }
+
+  .home-view-all {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /* brand sections */
 .home-brand-section { margin: 18px 0 26px; }
 .home-brand-header .page-title { margin-bottom: 6px; }
@@ -713,6 +773,9 @@ nav.site-menu > a:focus-visible,
 /* small screens */
 @media (max-width: 640px) {
   .hero-name { font-size: 18px; }
+
+  .home-tagline { text-align: center; }
+  .home-desc { max-width: 100%; text-align: center; margin-left: auto; margin-right: auto; }
 }
 
 /* ===== Home / Hero with peek ===== */
@@ -963,3 +1026,15 @@ nav.site-menu > a:focus-visible,
   margin-top: 2px;
 }
 
+/* --- Mobile safety net --- */
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
