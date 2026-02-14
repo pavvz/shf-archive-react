@@ -1,0 +1,965 @@
+:root {
+  --bg: #2a2a2a;
+  --bg-elev: #222222;
+  --text: #dddddd;
+  --muted: #999999;
+  --brand: #e99c23;
+  --line: #414141;
+  --card: #222222;
+}
+
+:root {
+  /* Viewport width that excludes the vertical scrollbar */
+  --vw-noscroll: calc(100vw - (100vw - 100%));
+}
+
+:root {
+  --header-h: 64px; /* adjust to your header’s real height (e.g., 56px, 64px) */
+}
+
+
+/*:root {
+  --bg: #0f1115;
+  --bg-elev: #151823;
+  --text: #f3f4f6;
+  --muted: #a1a1aa;
+  --brand: #e99c23;
+  --line: #232634;
+  --card: #10131b;
+} /* dark mode (cool) */
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; height: auto; }
+
+/* Layout */
+.container { width: min(1200px, 94%); margin: 0 auto; }
+
+/* Header styled with a Tamashii-like minimal vibe */
+header.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgb(34, 34, 34);
+  /*border-bottom: 1px solid var(--line);*/
+}
+.nav-row {
+  display: grid;
+  grid-template-columns: 240px 1fr 460px; /* left logo, center menu, right tools */
+  gap: 12px;
+  align-items: center;
+  padding: 12px 0;
+}
+.logo-wrap { display:flex; align-items:center; gap:12px; }
+.logo-img {
+  width: auto; height: 40px; object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0));
+}
+
+/* 1) Button reset so it looks like a link by default */
+.menu-trigger {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  /* we'll get padding, radius, font-weight from the shared rule below */
+}
+
+nav.site-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;        /* space between buttons */
+  flex-wrap: nowrap;/* keep in one row */
+  margin: 0;
+}
+
+/* Fallback spacing if 'gap' isn't applied for some reason */
+@supports not (gap: 1rem) {
+  nav.site-menu > * + * { margin-left: 22px; }
+}
+
+/* before: nav.site-menu a, .menu-trigger { ... } */
+nav.site-menu > a,
+.menu-trigger {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: background 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* before: nav.site-menu a:hover, .menu-trigger:hover, ... */
+nav.site-menu > a:hover,
+.menu-trigger:hover,
+.dropdown.open .menu-trigger {
+  background: var(--bg-elev);
+}
+
+/* before: nav.site-menu a:focus-visible, .menu-trigger:focus-visible */
+nav.site-menu > a:focus-visible,
+.menu-trigger:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.menu-trigger::after {
+  content: "▾";
+  opacity: 0.8;
+  transform: translateY(1px); /* tiny optical alignment */
+}
+
+/* Make the layout fill the screen so the footer sits at the bottom */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app > main {
+  flex: 1 1 auto; /* pushes footer to bottom when content is short */
+}
+
+/* Footer styling */
+.site-footer {
+  /* background: rgba(15,17,21,0.9); */
+  /*border-top: 1px solid var(--line);*/
+  padding: 18px 0;
+  color: var(--muted);
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: 240px 1fr 460px; /* left | center | right (mirrors header) */
+  gap: 12px;
+  align-items: center;
+}
+
+/* Right-side footer links */
+.foot-right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+.foot-right a {
+  color: var(--text);
+  opacity: 0.8;
+}
+.foot-right a:hover {
+  opacity: 1;
+}
+
+/* Responsive footer */
+@media (max-width: 900px) {
+  .footer-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+  }
+  .foot-right {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+
+/* Allow overlay elements inside cards */
+.card { position: relative; }
+
+/* Checkbox overlay on each card */
+.check-overlay {
+  position: absolute;
+  top: 8px; right: 8px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 6px 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  z-index: 2;
+}
+.check-overlay input { width: 16px; height: 16px; }
+
+/* Optional: a small owned badge */
+.owned-badge {
+  position: absolute;
+  top: 8px; left: 8px;
+  background: var(--brand);
+  color: #111111;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 999px;
+  padding: 4px 8px;
+  z-index: 2;
+}
+
+/* Ensure dropdown can size to content and not get squished */
+.dropdown { position: relative; }
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;           /* flush under trigger */
+  left: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.35);
+  display: none;
+  z-index: 50;
+
+  /* NEW: prevent squish */
+  width: max-content;   /* grow to fit the longest item */
+  min-width: 260px;     /* but never smaller than this */
+  max-width: 90vw;      /* avoid off-screen on small displays */
+}
+
+.dropdown-list a {
+  display: block;
+  padding: 10px 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+
+  /* NEW: keep each item on one line */
+  white-space: nowrap;
+}
+.dropdown-list a:last-child { border-bottom: none; }
+
+.dropdown-list a { display: block !important; }
+
+/* Open states (hover, focus, JS toggle) */
+.dropdown:hover .dropdown-list,
+.dropdown:focus-within .dropdown-list,
+.dropdown.open .dropdown-list {
+  display: block;
+}
+
+/* Right tools: search, currency, social */
+.tools { display:flex; align-items:center; justify-content:flex-end; gap: 12px; }
+.search {
+  position: relative;
+  flex: 1 1 280px;
+  max-width: 320px;
+}
+.search input {
+  width: 100%;
+  padding: 10px 38px 10px 12px; /* leave space for right icon */
+  border-radius: 12px;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  color: var(--text);
+  outline: none;
+}
+.search input::placeholder { color: var(--muted); }
+
+/* Icon button sits inside the input on the right */
+.search-icon-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Keep the SVG sized/visible; no positioning here anymore */
+.search-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.8;
+}
+
+.search-results {
+  position: absolute; left: 0; right: 0; top: calc(100% + 6px);
+  background: var(--bg-elev); border: 1px solid var(--line); border-radius: 12px;
+  overflow: hidden; box-shadow: 0 6px 24px rgba(0,0,0,0.35);
+}
+.search-results a { display:block; padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.search-results a:last-child { border-bottom:none; }
+
+/* Make each result a row with a small image */
+.search-item {
+  display: flex;           /* overrides the existing block display */
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;       /* keep your existing padding feel */
+}
+
+/* Tiny square thumbnail to the left */
+.search-thumb {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #111111;     /* subtle fallback while loading */
+}
+
+/* Prevent long names from overflowing */
+.search-item-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.badge {
+  display:inline-flex; align-items:center; gap:6px;
+  background: var(--bg-elev); border: 1px solid var(--line);
+  padding: 6px 10px; border-radius: 999px; font-size: 12px;
+  color: var(--text, #fff);
+}
+
+.social { display:flex; gap: 10px; }
+.social a {
+  display: grid; place-items: center;
+  width: 36px; height: 36px; border-radius: 10px;
+}
+
+/* Grid and cards */
+.grid-figs {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+@media (max-width: 1200px) { .grid-figs { grid-template-columns: repeat(5, 1fr); } }
+@media (max-width: 992px) { .grid-figs { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 768px) { .grid-figs { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 560px) { .grid-figs { grid-template-columns: repeat(2, 1fr); } }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.card .thumb { aspect-ratio: 1/1; background: #111111; display: grid; place-items:center; }
+.card .title { padding: 10px 12px; font-size: 14px; font-weight: 600; text-align: center; min-height: 44px; }
+
+/* Sort row */
+.sort-row { display:flex; align-items:center; justify-content: space-between; gap: 12px; margin: 18px 0; }
+.select {
+  background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
+  padding: 10px 12px; border-radius: 12px;
+}
+
+/* Detail page */
+.detail-grid {
+  display:grid; grid-template-columns: 1.1fr 1fr; gap: 22px;
+}
+@media (max-width: 900px) { .detail-grid { grid-template-columns: 1fr; } }
+.slideshow {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
+}
+.slide-controls { display:flex; justify-content: space-between; padding: 8px 10px; border-top: 1px solid var(--line); }
+.slide-controls button {
+  background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
+  padding: 8px 10px; border-radius: 10px; cursor: pointer;
+}
+.data-list {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px;
+}
+.data-list dl { display:grid; grid-template-columns: 160px 1fr; gap: 10px 14px; }
+.data-list dt { color: var(--muted); }
+.data-list dd { margin: 0; }
+
+/* Grid stays two columns */
+.data-list .info-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  column-gap: 14px;
+  row-gap: 0;         /* we’ll handle spacing with padding */
+}
+
+/* Make each “row” contribute its children (dt, dd) to the grid */
+.data-list .info-row { display: contents; }
+
+/* Cell padding */
+.data-list dt,
+.data-list dd {
+  padding: 10px 0;
+  margin: 0;
+}
+
+/* Full-width separator after each row */
+.data-list .info-row::after {
+  content: "";
+  grid-column: 1 / -1;         /* span both columns */
+  height: 1px;
+  background: var(--line);
+}
+
+/* No line after the last row */
+.data-list .info-row:last-child::after { display: none; }
+
+/* Checklist */
+.check-row { display:flex; align-items:center; justify-content: space-between; gap: 20px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.check-row:last-child { border-bottom:none; }
+.check-row input { width: 18px; height: 18px; }
+
+/* News */
+.news-compose, .news-post {
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px;
+}
+.news-compose input, .news-compose textarea {
+  width: 100%; background: var(--bg-elev); border: 1px solid var(--line); color: var(--text);
+  padding: 10px 12px; border-radius: 12px; margin: 6px 0;
+}
+.news-post { margin-bottom: 18px; }
+.news-post h3 { margin: 0 0 8px; }
+.news-post .meta { color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+.news-post .slide { margin-bottom: 8px; }
+
+.back-btn {
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.type-chip {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 1;
+  background: var(--bg-elev);
+  border: 1px solid var(--line);
+  color: var(--text);
+}
+
+.type-chip[data-type="Retail"] {
+  background: #5d90ec;
+  border: 1px solid var(--line);
+}
+
+.type-chip[data-type="Event Exclusive"] {
+  background: #e47a3a;
+  border: 1px solid var(--line);
+}
+
+.type-chip[data-type="Tamashii Store Exclusive"] {
+  background: #bc4340;
+  border: 1px solid var(--line);
+}
+
+.type-chip[data-type="Premium Bandai Exclusive"] {
+  background: #bc9f40;
+  border: 1px solid var(--line);
+}
+
+.detail-header-img {
+  display: block;
+  max-width: 240px;   /* tweak to taste */
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+/* Bullet list styling inside data cells */
+.info-list {
+  margin: 0;              /* align with other rows */
+  padding-left: 1.1rem;   /* indent bullets a bit */
+  list-style: disc;
+}
+.info-list li { margin: 2px 0; }
+
+/* Search results: thumbnail to the LEFT of the title */
+.search-results > a.search-item {
+  display: flex !important;   /* override any earlier display:block */
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;          /* keep your item padding */
+}
+.search-results > a.search-item .search-thumb {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #111111;
+}
+.search-results > a.search-item .search-item-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.detail-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+/* Optional: make the chip a bit smaller here */
+.detail-brand-row .type-chip {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+/* Put the chip on the far right of the row */
+.detail-brand-row .type-chip {
+  margin-left: auto;      /* pushes it to the right edge */
+}
+
+/* (Optional) keep the logo + chip on one line */
+.detail-brand-row {
+  flex-wrap: nowrap;      /* remove if you prefer it to wrap on small screens */
+  gap: 10px;              /* keep your spacing */
+}
+
+/* Square image area for all cards */
+.card .thumb {
+  position: relative;
+  aspect-ratio: 1 / 1;   /* square */
+  width: 100%;
+  overflow: hidden;
+  background: #111111;   /* subtle bg while loading */
+}
+
+/* Center-crop the picture */
+.card .thumb img {
+  width: 150%;
+  height: 150%;
+  object-fit: cover;           /* crop to fill */
+  object-position: 50% 50%;    /* center focal point */
+  display: block;
+}
+
+/* Card image pan/zoom + per-figure transform origin */
+.card .thumb img {
+  transform: translateY(var(--nudge-y)) scale(var(--nudge-zoom));
+  transform-origin: var(--origin-x) var(--origin-y);
+  will-change: transform;
+}
+
+/* Fallback for very old browsers without aspect-ratio */
+@supports not (aspect-ratio: 1 / 1) {
+  .card .thumb { position: relative; }
+  .card .thumb::before { content: ""; display: block; padding-top: 100%; }
+  .card .thumb img { position: absolute; inset: 0; }
+}
+
+/* Always keep space before the info list */
+.detail-titleblock {
+  margin: 0 0 25px;   /* bottom gap that’s there even without a subtitle */
+}
+
+/* Default: no extra margin on the H1 itself */
+.detail-title {
+  margin: 0;
+}
+
+/* When a subtitle exists, make the H1—subtitle gap small */
+.detail-titleblock.has-subtitle .detail-title {
+  margin-bottom: 2px;
+}
+
+/* Subtitle styling + tiny gap above it; no extra bottom margin needed */
+.detail-subtitle {
+  margin: 2px 0 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  color: var(--muted, var(--text-muted, #8b8f98));
+  font-weight: 500;
+}
+
+/* Text block under the logo/title */
+.brand-blurb {
+  margin: 6px 0 18px;         /* small gap below title, good space before grid */
+  color: var(--muted, var(--text-muted, #8b8f98));
+  line-height: 1.5;
+  max-width: 72ch;            /* keep lines readable; adjust if you like */
+}
+
+/* (already have from earlier) logo title sizing */
+.page-title { margin: 0 0 12px; display:flex; align-items:center; min-height:40px; }
+.page-title-logo { max-height: 40px; width:auto; height:auto; object-fit:contain; }
+
+/* Row with brand blurb on the left and controls (sort) on the right */
+.brand-intro-row {
+  display: flex;
+  align-items: flex-start;   /* top-align the dropdown with the first line of text */
+  gap: 16px;
+  margin-bottom: 18px;       /* space before the figure grid */
+}
+
+/* Let the blurb take the remaining width; trim its bottom margin in the row */
+.brand-intro-row .brand-blurb {
+  flex: 1 1 auto;
+  margin: 6px 0 0;           /* top = 6, no bottom margin here */
+}
+
+/* Push controls to the right edge */
+.brand-intro-controls {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Stack on narrow screens */
+@media (max-width: 720px) {
+  .brand-intro-row { 
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .brand-intro-controls { margin-left: 0; }
+}
+
+/* ===== Home / Hero ===== */
+.home { padding: 0 12px 28px; }
+
+/* Hero container */
+.home-hero {
+  position: relative;
+  margin: 8px 0 14px;
+}
+
+/* 16:9, full-width look while keeping it responsive */
+.home-hero .hero-slide {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #000000;
+}
+.home-hero .hero-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* overlay text (bottom-left) */
+.hero-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 14px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.75) 100%);
+  color: #fff;
+}
+.hero-meta { max-width: 70ch; }
+.hero-brand { font-size: 12px; opacity: .9; margin-bottom: 2px; }
+.hero-name  { font-size: 20px; font-weight: 700; line-height: 1.2; }
+.hero-alt   { font-size: 14px; opacity: .9; margin-top: 2px; }
+.hero-release { font-size: 12px; opacity: .9; margin-top: 4px; }
+
+/* controls under image */
+.hero-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+.hero-controls button {
+  border: 1px solid var(--line, #2a2f36);
+  background: var(--bg-elev, #111318);
+  border-radius: 999px;
+  width: 36px; height: 36px;
+  font-size: 18px;
+}
+.hero-pager { opacity: .8; }
+
+/* tagline & description */
+.home-tagline { margin: 8px 0 6px; font-weight: 700; font-size: 35px; }
+.home-desc { margin: 0 0 50px; color: var(--muted, var(--text-muted, #8b8f98)); max-width: 80ch; }
+
+/* brand sections */
+.home-brand-section { margin: 18px 0 26px; }
+.home-brand-header .page-title { margin-bottom: 6px; }
+.home-view-all { margin-top: 10px; }
+.home-view-all .btn, .back-to-top.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 8px 14px; border-radius: 10px;
+  background: var(--bg-elev, #111318); border: 1px solid var(--line, #2a2f36);
+  color: var(--text, #e8ecef); text-decoration: none;
+}
+
+/* small screens */
+@media (max-width: 640px) {
+  .hero-name { font-size: 18px; }
+}
+
+/* ===== Home / Hero with peek ===== */
+.home-hero.hero--peek {
+  background: var(--card, #222222);  /* your bar color */
+  border-radius: 0px;
+  padding: 24px 12px;
+  margin: 0px 0 50px;
+}
+
+/* three-up lane: prev | current | next */
+.hero-row {
+  display: grid;
+  grid-template-columns: 10fr 10fr 10fr;   /* center larger */
+  align-items: stretch;
+  gap: 12px;
+}
+
+/* individual cards */
+.hero-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 0px;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+}
+.hero-card img {
+  width: 100%;
+  height: 170%;
+  object-fit: cover;
+  display: block;
+}
+
+/* faded side previews */
+.hero-card.hero-side {
+  opacity: .35;
+  filter: grayscale(.05) saturate(.85);
+  transition: opacity .2s ease;
+}
+.hero-card.hero-side:hover { opacity: .55; }
+
+/* overlay text for center card only */
+.hero-card .hero-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 14px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.75) 100%);
+  color: #fff;
+}
+.hero-meta { max-width: 70ch; }
+.hero-brand { font-size: 12px; opacity: .9; margin-bottom: 2px; }
+.hero-name  { font-size: 20px; font-weight: 700; line-height: 1.2; }
+.hero-alt   { font-size: 14px; opacity: .9; margin-top: 2px; }
+.hero-release { font-size: 12px; opacity: .9; margin-top: 4px; }
+
+/* controls under the bar */
+.hero-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+.hero-controls button {
+  border: 1px solid var(--line, #2a2f36);
+  background: var(--bg-elev, #111318);
+  border-radius: 999px;
+  width: 36px; height: 36px;
+  font-size: 18px;
+}
+.hero-pager { opacity: 1; }
+
+/* responsive: hide side peeks on small screens */
+@media (max-width: 900px) {
+  .hero-row { grid-template-columns: 1fr; }
+  .hero-card.hero-side { display: none; }
+}
+
+/* Center the homepage tagline + description */
+.home-tagline,
+.home-desc {
+  text-align: center;
+}
+
+.home-desc {
+  max-width: 80ch;        /* keep lines readable */
+  margin-left: auto;      /* center the block */
+  margin-right: auto;     /* center the block */
+  /* keep your existing bottom margin; if needed: margin: 0 auto 18px; */
+}
+
+/* Center the "View All" button under each brand section */
+.home-view-all {
+  display: flex;
+  justify-content: center;
+}
+
+.home-bottom { 
+  display:flex; 
+  justify-content:center; 
+}
+
+/* Roomier brand sections on the Home page */
+.home-brand-section {
+  padding: 10px 0 2px;          /* space above and below each brand block */
+}
+
+.home-brand-header {              /* logo + blurb block above the grid */
+  margin-bottom: 20px;            /* space before the grid */
+}
+
+.grid-figs {
+  gap: 16px;                      /* space between cards (increase if you like) */
+  margin-bottom: 16px;            /* space below the grid before the button */
+}
+
+.home-view-all {                  /* we centered this earlier; now add bigger top margin */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;               /* space between grid and button */
+}
+
+/* Optional: a bit more breathing room under the hero */
+.home-hero {
+  margin-bottom: 20px;
+}
+
+/* Tighter spacing on small screens so it doesn’t feel too airy */
+@media (max-width: 700px) {
+  .home-brand-header { margin-bottom: 10px; }
+  .grid-figs { gap: 12px; margin-bottom: 12px; }
+  .home-view-all { margin-top: 14px; }
+  .home-brand-section { padding: 14px 0 22px; }
+}
+
+/* Hero controls: white icons/text, button uses page background color */
+.hero-controls button {
+  color: #fff;                                  /* ‹ and › become white */
+  background: var(--bg);               /* page background (fallback provided) */
+  border: 1px solid var(--line, rgba(255,255,255,.18));
+}
+
+.hero-controls button:hover {
+  filter: brightness(1.08);
+}
+
+.hero-controls button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* ---------- full-screen, square hero like Premium Bandai ---------- */
+/* Adjust this if your page side padding is different */
+:root { --page-pad-x: 12px; }
+:root { --hero-max: 1400px; }   /* max inner width for cards */
+:root { --hero-gap: 18px; }
+
+/* Square three-up cards centered within the bar */
+.hero--full .hero-row {
+  max-width: var(--hero-max);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* three equal squares */
+  gap: var(--hero-gap);
+  align-items: stretch;
+  /* give the lane some vertical breathing room like PB */
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+/* Cards become squares */
+.hero--full .hero-card {
+  aspect-ratio: 1 / 1;                 /* big squares */
+  border-radius: 0px;
+  overflow: hidden;
+  background: #0b0d12;
+}
+
+/* Center card stays full color; sides are faded previews */
+.hero--full .hero-card.hero-side {
+  opacity: .35;
+  filter: grayscale(.05) saturate(.85);
+  transition: opacity .2s ease, transform .2s ease;
+}
+.hero--full .hero-card.hero-side:hover { opacity: .55; transform: scale(1.02); }
+
+/* Overlay text only on the center card */
+.hero--full .hero-card .hero-overlay {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 16px;
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.55) 60%, rgba(0,0,0,.75) 100%);
+  color: #fff;
+}
+
+/* Controls sit centered below the lane, still inside the full-bleed bar */
+.hero--full .hero-controls {
+  max-width: var(--hero-max);
+  margin: 10px auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+/* On smaller screens, collapse to just the center square */
+@media (max-width: 1024px) {
+  .hero--full .hero-row { grid-template-columns: 1fr; }
+  .hero--full .hero-card.hero-side { display: none; }
+}
+
+/* Ensure images fully cover their squares */
+.hero-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Keep hero height; bleed background paints behind it */
+.home-hero.hero--bleed {
+  position: relative;
+  isolation: isolate; /* keep ::before under this block only */
+  padding-left: calc(var(--page-pad-x, 12px) + env(safe-area-inset-left));
+  padding-right: calc(var(--page-pad-x, 12px) + env(safe-area-inset-right));
+}
+
+.home-hero.hero--bleed::before {
+  content: "";
+  position: absolute;
+  /* extend UP by the header height (background only) */
+  top: calc(-1 * var(--header-h));
+  bottom: 0;                 /* background height = hero height + header */
+  left: 0; right: 0;
+  z-index: -1;
+  background: var(--card, #222222);
+
+  /* horizontal full-bleed without scrollbars */
+  box-shadow: 0 0 0 100vmax var(--card, #222222);
+  clip-path: inset(0 -100vmax);  /* 0 top/bottom, extend left/right only */
+}
+
+/* muted line under a search result title (e.g., when matched by accessory) */
+.search-subtle {
+  font-size: 12px;
+  color: var(--muted, var(--text-muted, #8b8f98));
+  margin-top: 2px;
+}
+

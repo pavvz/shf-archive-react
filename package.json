@@ -1,0 +1,26 @@
+{
+  "name": "shf-archive-react",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:admin": "cross-env VITE_ADMIN=1 vite",
+    "build": "vite build",
+    "prebuild": "npm run upscale",
+    "preview": "vite preview",
+    "upscale": "node tools/upscale.cjs"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "cross-env": "^10.0.0",
+    "fast-glob": "^3.3.3",
+    "sharp": "^0.34.3",
+    "vite": "^5.4.0"
+  }
+}
