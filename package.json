@@ -7,9 +7,7 @@
     "dev": "vite",
     "dev:admin": "cross-env VITE_ADMIN=1 vite",
     "build": "vite build",
-    "prebuild": "npm run upscale",
     "preview": "vite preview",
-    "upscale": "node tools/upscale.cjs"
   },
   "dependencies": {
     "react": "^18.2.0",
