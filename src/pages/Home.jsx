@@ -6,6 +6,15 @@ import HeroCarousel from '../components/HeroCarousel'
 import FigureCard from '../components/FigureCard'
 import BrandTitle from '../components/BrandTitle'
 import BrandBlurb from '../components/BrandBlurb'
+import { Helmet } from "react-helmet-async";
+
+<Helmet>
+  <title>Dragon Ball Action Figures</title>
+  <meta
+    name="description"
+    content="The #1 database for S.H.Figuarts and third party Dragon Ball action figures."
+  />
+</Helmet>
 
 const BRAND_ORDER = ['S.H.Figuarts', 'Demoniacal Fit', 'Kong Studios', 'Tonsen Arttoys', 'Black Hole Toys'] // extend as needed
 
