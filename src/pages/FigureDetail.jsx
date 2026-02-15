@@ -133,8 +133,8 @@ export default function FigureDetail() {
       ? (ogImagePath.startsWith('http') ? ogImagePath : `https://dragonballactionfigures.com${ogImagePath.startsWith('/') ? ogImagePath : `/${ogImagePath}`}`)
       : 'https://dragonballactionfigures.com/seo/og-home.jpg'
 
-  const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name;
-  const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle;
+  const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name
+  const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle
 
   return (
     <section className="detail-grid">
@@ -154,14 +154,12 @@ export default function FigureDetail() {
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
 
-      <div>
+      <div className="detail-head">
         {/* Back button */}
         <button className="badge back-btn" onClick={goBack} aria-label="Go back">
           ‹ Back
         </button>
-        <Slideshow images={fig.images} />
-      </div>
-      <div>
+
         <div className="detail-brand-row">
           {headerImg && (
             <img
@@ -177,6 +175,13 @@ export default function FigureDetail() {
           <h1 className="detail-title">{fig.name}</h1>
           {hasSubtitle && <div className="detail-subtitle">{fig.altTitle}</div>}
         </div>
+      </div>
+
+      <div className="detail-slideshow">
+        <Slideshow images={fig.images} />
+      </div>
+
+      <div className="detail-info">
         <div className="data-list">
           <dl className="info-grid">
             {[
