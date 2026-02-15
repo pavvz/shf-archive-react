@@ -411,31 +411,11 @@ nav.site-menu > a:focus-visible,
   padding: 10px 12px; border-radius: 12px;
 }
 
-/* Detail layout with reorder on mobile */
-.detail-grid{
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 22px;
-
-  grid-template-areas:
-    "slideshow head"
-    "slideshow info";
+/* Detail page */
+.detail-grid {
+  display:grid; grid-template-columns: 1.1fr 1fr; gap: 22px;
 }
-
-.detail-slideshow{ grid-area: slideshow; min-width: 0; }
-.detail-head{      grid-area: head;      min-width: 0; }
-.detail-info{      grid-area: info;      min-width: 0; }
-
-@media (max-width: 900px){
-  .detail-grid{
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "head"
-      "slideshow"
-      "info";
-  }
-}
-
+@media (max-width: 900px) { .detail-grid { grid-template-columns: 1fr; } }
 .slideshow {
   background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden;
 }
