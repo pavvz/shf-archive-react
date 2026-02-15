@@ -157,10 +157,6 @@ export default function FigureDetail() {
       <div className="detail-head">
         <div className="detail-brand-row">
           {/* Back button (keeps the same “top row” feel as before) */}
-          <button className="badge back-btn" onClick={goBack} aria-label="Go back">
-            ‹ Back
-          </button>
-
           {headerImg && (
             <img
               className="detail-header-img"
@@ -178,6 +174,10 @@ export default function FigureDetail() {
       </div>
 
       <div className="detail-slideshow">
+        <button className="badge back-btn" onClick={goBack} aria-label="Go back">
+          ‹ Back
+        </button>
+
         <Slideshow images={fig.images} />
       </div>
 

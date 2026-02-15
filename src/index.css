@@ -1088,8 +1088,14 @@ img {
   }
 }
 
-/* Back button is now in the brand row, so remove its old bottom margin */
-.detail-brand-row .back-btn{
-  margin-bottom: 0;
+/* Put Back button above slideshow (desktop + mobile) */
+.detail-slideshow{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-slideshow .back-btn{
+  align-self: flex-start;
+  margin: 0 0 12px;
 }
 
