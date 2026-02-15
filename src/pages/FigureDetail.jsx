@@ -133,7 +133,7 @@ export default function FigureDetail() {
       ? (ogImagePath.startsWith('http') ? ogImagePath : `https://dragonballactionfigures.com${ogImagePath.startsWith('/') ? ogImagePath : `/${ogImagePath}`}`)
       : 'https://dragonballactionfigures.com/seo/og-home.jpg'
 
-  const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name
+  const baseTitle = hasSubtitle ? `${fig.name} — ${fig.altTitle}` : fig.name
   const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle
 
   return (
@@ -155,12 +155,12 @@ export default function FigureDetail() {
       </Helmet>
 
       <div className="detail-head">
-        {/* Back button */}
-        <button className="badge back-btn" onClick={goBack} aria-label="Go back">
-          ‹ Back
-        </button>
-
         <div className="detail-brand-row">
+          {/* Back button (keeps the same “top row” feel as before) */}
+          <button className="badge back-btn" onClick={goBack} aria-label="Go back">
+            ‹ Back
+          </button>
+
           {headerImg && (
             <img
               className="detail-header-img"

@@ -1058,3 +1058,38 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Figure detail: keep desktop spacing like before, but reorder on mobile */
+.detail-grid{
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  column-gap: 22px;
+  row-gap: 0; /* IMPORTANT: prevents extra gap between title and info on desktop */
+
+  grid-template-areas:
+    "slideshow head"
+    "slideshow info";
+  align-items: start;
+}
+
+.detail-slideshow { grid-area: slideshow; min-width: 0; }
+.detail-head      { grid-area: head;      min-width: 0; }
+.detail-info      { grid-area: info;      min-width: 0; }
+
+/* Mobile: Title -> Slideshow -> Info */
+@media (max-width: 900px){
+  .detail-grid{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "head"
+      "slideshow"
+      "info";
+    row-gap: 16px; /* nice mobile spacing */
+  }
+}
+
+/* Back button is now in the brand row, so remove its old bottom margin */
+.detail-brand-row .back-btn{
+  margin-bottom: 0;
+}
+
