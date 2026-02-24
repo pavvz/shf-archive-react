@@ -14,7 +14,7 @@ export default function Reference() {
   return (
     <section>
       <Helmet>
-        <title>S.H.Figuarts - Dragon Ball Action Figures</title>
+        <title>S.H.Figuarts — Dragon Ball Action Figures</title>
         <meta
           name="description"
           content="Browse info on all S.H.Figuarts Dragon Ball action figures."

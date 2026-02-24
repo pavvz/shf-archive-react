@@ -3810,6 +3810,8 @@
       "PVC"
     ],
     "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
       "Namekian Dragon Ball (3 Star)",
       "Ginyu head",
       "Namekian frog"
@@ -11365,7 +11367,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.7
   },
-    {
+  {
     "id": "solemn-valor-version-b",
     "name": "Solemn Valor",
     "altTitle": "(Version B)",
@@ -11400,7 +11402,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-      {
+  {
     "id": "demons-awakener-version-a",
     "name": "Demons Awakener",
     "altTitle": "(Version A)",
@@ -11433,7 +11435,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-        {
+  {
     "id": "demons-awakener-version-b",
     "name": "Demons Awakener",
     "altTitle": "(Version B)",
@@ -11719,7 +11721,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.5
   },
-    {
+  {
     "id": "kong-ssj4-limit-breaker-vegito",
     "name": "Super Full Power Saiyan 4 Limit Breaker Vegito",
     "series": "Super Dragon Ball Heroes",
@@ -11783,7 +11785,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-    {
+  {
     "id": "kong-majin-vegeta",
     "name": "Majin Vegeta",
     "series": "Dragon Ball Z",
@@ -11817,7 +11819,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.7
   },
-      {
+  {
     "id": "kong-ultra-ego-ssj3-ultimate-version",
     "name": "Ultra Ego/Super Saiyan 3 Vegeta Ultimate Version",
     "series": "Dragon Ball Z",
@@ -11849,7 +11851,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-    {
+  {
     "id": "k017",
     "name": "K017",
     "series": "Super Dragon Ball Heroes",
@@ -11883,7 +11885,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.3
   },
-    {
+  {
     "id": "k016",
     "name": "K016",
     "series": "Dragon Ball Super",
@@ -11917,7 +11919,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.3
   },
-      {
+  {
     "id": "red-fox",
     "name": "Red Fox",
     "series": "Dragon Ball Z",
@@ -11945,8 +11947,8 @@
     ],
     "headerImage": "/uploads/wpmodellogo.png",
     "images": [
-      "/uploads/redfox1.jpg",
       "/uploads/redfox2.jpg",
+      "/uploads/redfox1.jpg",
       "/uploads/redfox3.jpg",
       "/uploads/redfox4.jpg",
       "/uploads/redfox5.jpg",
@@ -11957,12 +11959,50 @@
       "/uploads/redfox10.png",
       "/uploads/redfox11.webp"
     ],
-    "originX": 47,
-    "originY": 30,
+    "originX": 30,
+    "originY": 35,
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-        {
+    {
+    "id": "forest-bear",
+    "name": "Forest Bear",
+    "series": "Dragon Ball Z",
+    "brand": "WP Model",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 50,
+    "heightIn": 7.8,
+    "heightMm": 200,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "3 faces",
+      "2 heads",
+      "2 Namekian Dragon Balls (3 Star and 4 Star)",
+      "Ginyu head",
+      "2 Namekian frogs"
+    ],
+    "headerImage": "/uploads/wpmodellogo.png",
+    "images": [
+      "/uploads/forestbear1.jpg",
+      "/uploads/forestbear2.jpg",
+      "/uploads/forestbear3.jpg",
+      "/uploads/forestbear4.jpg",
+      "/uploads/forestbear5.jpg",
+      "/uploads/forestbear6.jpg",
+      "/uploads/forestbear7.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2.5
+  },
+  {
     "id": "zt-toys-01",
     "name": "ZT-Toys 01",
     "series": "Dragon Ball Z",
@@ -12002,7 +12042,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-          {
+  {
     "id": "breakout-kings-a",
     "name": "Breakout Kings A",
     "series": "Dragon Ball Super",
@@ -12042,9 +12082,9 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-    {
-    "id": "gd007",
-    "name": "GD007",
+  {
+    "id": "ygmw-07",
+    "name": "YGMW 07",
     "series": "Super Dragon Ball Heroes",
     "brand": "OC Toys",
     "type": "Retail",
@@ -12065,7 +12105,7 @@
       "2 rapid punches effects",
       "2 sash parts",
       "Ki blast",
-      "3 neck pegs"
+      "Hair part"
     ],
     "headerImage": "/uploads/octoyslogo.png",
     "images": [
@@ -12082,6 +12122,115 @@
     "originY": 20,
     "nudgeY": 0,
     "nudgeZoom": 2.5
+  },
+  {
+    "id": "ygmw-08",
+    "name": "YGMW 08",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "OC Toys",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 heads",
+      "5 faces",
+      "7 left hands, 7 right hands",
+      "Crossed arms",
+      "2 rapid punches effects",
+      "2 sash parts",
+      "Ki blast",
+      "2 Ki blades",
+      "Hair part"
+    ],
+    "headerImage": "/uploads/octoyslogo.png",
+    "images": [
+      "/uploads/ygmw08_1.jpg",
+      "/uploads/ygmw08_2.jpg"
+    ],
+    "originX": 45,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+  {
+    "id": "ygmw-09a",
+    "name": "YGMW 09A",
+    "series": "Dragon Ball Super",
+    "brand": "OC Toys",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 heads",
+      "6 faces",
+      "11 left hands, 11 right hands",
+      "Crossed arms",
+      "2 rapid punches effects",
+      "2 Ki blades",
+      "Ki blast",
+      "2 shoulder pads",
+      "2 hair parts"
+    ],
+    "headerImage": "/uploads/octoyslogo.png",
+    "images": [
+      "/uploads/ygmw09a1.jpg",
+      "/uploads/ygmw09a2.png",
+      "/uploads/ygmw09a3.jpg"
+    ],
+    "originX": 45,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+  {
+    "id": "ygmw-09b",
+    "name": "YGMW 09B",
+    "series": "Dragon Ball Super",
+    "brand": "OC Toys",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 heads",
+      "6 faces",
+      "11 left hands, 11 right hands",
+      "Crossed arms",
+      "2 rapid punches effects",
+      "2 Ki blades",
+      "Ki blast",
+      "2 shoulder pads",
+      "2 hair parts"
+    ],
+    "headerImage": "/uploads/octoyslogo.png",
+    "images": [
+      "/uploads/ygmw09b1.jpg",
+      "/uploads/ygmw09b2.png"
+    ],
+    "originX": 45,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1
   },
   {
     "id": "ssj-goku-legendary-super-saiyan-genkidamatsuri-edition",
@@ -12121,7 +12270,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-    {
+  {
     "id": "bardock-the-father-of-goku",
     "name": "Bardock",
     "altTitle": "-The Father of Goku-",
@@ -12161,7 +12310,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-      {
+  {
     "id": "dodoria-zarbon-bardock-the-father-of-goku",
     "name": "Dodoria & Zarbon",
     "altTitle": "-Bardock The Father of Goku-",
@@ -12206,7 +12355,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.1
   },
-    {
+  {
     "id": "son-of-ghost-sdcc-exclusive",
     "name": "Son of Ghost",
     "series": "Dragon Ball Super",
@@ -12242,7 +12391,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.5
   },
-    {
+  {
     "id": "super-saiyan-god-son-goku-god-aura",
     "name": "Super Saiyan God Son Goku",
     "altTitle": "<God Aura>",
@@ -12278,7 +12427,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-      {
+  {
     "id": "ssgss-son-goku-blue-power-transcending-limits",
     "name": "Super Saiyan God Super Saiyan Son Goku",
     "altTitle": "<Blue Power Transcending Limits>",
@@ -12315,7 +12464,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.2
   },
-        {
+  {
     "id": "father-and-son-the-unbreakable-bond",
     "name": "Father and Son",
     "altTitle": "The Unbreakable Bond",
@@ -12359,7 +12508,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.7
   },
-            {
+  {
     "id": "breakout-kings-b",
     "name": "Breakout Kings B",
     "series": "Dragon Ball Super",
@@ -12393,7 +12542,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-          {
+  {
     "id": "unyielding-spirit-anime-version",
     "name": "Unyielding Spirit",
     "altTitle": "Anime Version",
@@ -12425,7 +12574,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-            {
+  {
     "id": "unyielding-spirit-manga-version",
     "name": "Unyielding Spirit",
     "altTitle": "Manga Version",
@@ -12457,7 +12606,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.8
   },
-              {
+  {
     "id": "ec-03a",
     "name": "EC 03A",
     "series": "Dragon Ball Z",
@@ -12488,7 +12637,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-                {
+  {
     "id": "ec-03b",
     "name": "EC 03B",
     "series": "Dragon Ball Super",
@@ -12520,13 +12669,13 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-       {
+  {
     "id": "son-goku-onward-to-adventure",
     "name": "Son Goku",
     "altTitle": "<Onward to Adventure>",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
-    "type": "Retail",
+    "type": "Event Exclusive",
     "releaseDate": "2026-10-23",
     "priceJPY": 12000,
     "heightIn": 5.66,
@@ -12562,7 +12711,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-    {
+  {
     "id": "the-coming-one-free-the-future",
     "name": "The Coming One",
     "altTitle": "-Free the Future-",
@@ -12611,7 +12760,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-    {
+  {
     "id": "ammit-rl002",
     "name": "Ammit RL002",
     "series": "Dragon Ball Z",
@@ -12629,7 +12778,8 @@
     "accessories": [
       "5 left hands, 5 right hands",
       "5 faces",
-      "1 head"
+      "1 head",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -12641,7 +12791,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-      {
+  {
     "id": "ammit-rl001",
     "name": "Ammit RL001",
     "series": "Dragon Ball Z",
@@ -12659,7 +12809,8 @@
     "accessories": [
       "5 left hands, 5 right hands",
       "5 faces",
-      "1 head"
+      "1 head",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -12671,7 +12822,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.8
   },
-        {
+  {
     "id": "s001a-solid-yellow",
     "name": "S001A",
     "series": "Dragon Ball AF",
@@ -12705,7 +12856,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-          {
+  {
     "id": "s001a-translucent-yellow",
     "name": "S001A",
     "series": "Dragon Ball AF",
@@ -12739,7 +12890,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.2
   },
-            {
+  {
     "id": "s001a-red",
     "name": "S001A",
     "series": "Dragon Ball AF",
@@ -12774,7 +12925,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.3
   },
-              {
+  {
     "id": "s001a-pink",
     "name": "S001A",
     "series": "Dragon Ball AF",
@@ -12808,7 +12959,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-        {
+  {
     "id": "armored-monkey-king-sun-wukong-ma001",
     "name": "Armored Monkey King Sun Wukong MA001",
     "series": "Dragon Ball Z",
@@ -12817,28 +12968,166 @@
     "releaseDate": "2026-02",
     "releasePrecision": "month",
     "priceUSD": 80,
-    "heightIn": 5.85,
-    "heightMm": 150,
+    "heightIn": 6.24,
+    "heightMm": 160,
     "materials": [
       "ABS",
       "PVC"
     ],
     "accessories": [
-      "5 left hands, 5 right hands",
-      "5 faces",
-      "1 head"
+      "6 left hands, 6 right hands",
+      "6 faces",
+      "2 heads",
+      "Crossed arms",
+      "Boots",
+      "Wrist parts",
+      "Waist parts",
+      "Blue torn shirt",
+      "Orange torn shirt piece",
+      "Kamehameha effect pieces",
+      "Staff"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
-      "/uploads/ammitrl001_1.jpg",
-      "/uploads/ammitrl001_2.jpg"
+      "/uploads/ma001_1.jpg",
+      "/uploads/ma001_2.avif",
+      "/uploads/ma001_3.jpg"
     ],
-    "originX": 40,
-    "originY": 15,
+    "originX": 47,
+    "originY": 22,
     "nudgeY": 0,
-    "nudgeZoom": 1.8
+    "nudgeZoom": 2.5
   },
-          {
+  {
+    "id": "armored-monkey-king-sun-wukong-ma002",
+    "name": "Armored Monkey King Sun Wukong MA002",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 6.24,
+    "heightMm": 160,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "3 heads",
+      "Boots",
+      "Wrist parts",
+      "Blue torn shirt",
+      "Orange torn shirt",
+      "Kamehameha effect pieces",
+      "Staff"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/ma002_1.jpg",
+      "/uploads/ma002_2.jpg",
+      "/uploads/ma002_3.jpg",
+      "/uploads/ma002_4.jpg",
+      "/uploads/ma002_5.jpg",
+      "/uploads/ma002_6.avif",
+      "/uploads/ma002_7.jpg"
+    ],
+    "originX": 47,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1
+  },
+  {
+    "id": "armored-monkey-king-sun-wukong-ma003",
+    "name": "Armored Monkey King Sun Wukong MA003",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 6.24,
+    "heightMm": 160,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "Crossed arms",
+      "Boots",
+      "Wrist parts",
+      "Waist parts",
+      "Blue torn shirt",
+      "Orange torn shirt",
+      "Kamehameha effect pieces",
+      "Staff"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/ma003_1.jpg",
+      "/uploads/ma003_2.jpg",
+      "/uploads/ma003_3.jpg",
+      "/uploads/ma003_4.jpg",
+      "/uploads/ma003_5.jpg",
+      "/uploads/ma003_6.avif",
+      "/uploads/ma003_7.jpg"
+    ],
+    "originX": 47,
+    "originY": 17,
+    "nudgeY": 0,
+    "nudgeZoom": 2.3
+  },
+  {
+    "id": "armored-monkey-king-sun-wukong-ma004",
+    "name": "Armored Monkey King Sun Wukong MA004",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 6.24,
+    "heightMm": 160,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "4 heads",
+      "Crossed arms",
+      "Boots",
+      "Wrist parts",
+      "Waist part",
+      "Blue shirt",
+      "Orange torn shirt piece",
+      "Kamehameha effect pieces",
+      "Staff"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/ma004_1.jpg",
+      "/uploads/ma004_2.jpg",
+      "/uploads/ma004_3.jpg",
+      "/uploads/ma004_4.jpg",
+      "/uploads/ma004_5.jpg",
+      "/uploads/ma004_6.jpg",
+      "/uploads/ma004_7.jpg",
+      "/uploads/ma004_8.avif",
+      "/uploads/ma004_9.jpg"
+    ],
+    "originX": 60,
+    "originY": 1,
+    "nudgeY": 0,
+    "nudgeZoom": 1.7
+  },
+  {
     "id": "fenrir-b010l",
     "name": "Fenrir B010L",
     "series": "Dragon Ball Z",
@@ -12877,7 +13166,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3.5
   },
-            {
+  {
     "id": "fenrir-b011l",
     "name": "Fenrir B011L",
     "series": "Dragon Ball Z",
@@ -12917,7 +13206,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-              {
+  {
     "id": "fenrir-b012l",
     "name": "Fenrir B012L",
     "series": "Dragon Ball Heroes",
@@ -12954,7 +13243,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-            {
+  {
     "id": "fenrir-rl003",
     "name": "Fenrir RL003",
     "series": "Dragon Ball Z",
@@ -12994,7 +13283,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3.5
   },
-            {
+  {
     "id": "fenrir-rl004",
     "name": "Fenrir RL004",
     "series": "Dragon Ball Z",
@@ -13035,7 +13324,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-              {
+  {
     "id": "fenrir-rl005",
     "name": "Fenrir RL005",
     "series": "Dragon Ball Heroes",
@@ -13073,7 +13362,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-      {
+  {
     "id": "fusion-android-13",
     "name": "Fusion Android 13",
     "series": "Dragon Ball Z",
@@ -13110,7 +13399,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-        {
+  {
     "id": "k021",
     "name": "K021",
     "series": "Dragon Ball Z",
@@ -13127,7 +13416,8 @@
     ],
     "accessories": [
       "4 left hands, 4 right hands",
-      "3 faces"
+      "3 faces",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -13139,7 +13429,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.7
   },
-          {
+  {
     "id": "k022",
     "name": "K022",
     "series": "Dragon Ball Z",
@@ -13156,7 +13446,8 @@
     ],
     "accessories": [
       "4 left hands, 4 right hands",
-      "3 faces"
+      "3 faces",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -13168,7 +13459,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3.2
   },
-      {
+  {
     "id": "k023",
     "name": "K023",
     "series": "Dragon Ball Z",
@@ -13185,7 +13476,8 @@
     ],
     "accessories": [
       "4 left hands, 4 right hands",
-      "3 faces"
+      "3 faces",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -13197,7 +13489,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.7
   },
-        {
+  {
     "id": "k024",
     "name": "K024",
     "series": "Dragon Ball Z",
@@ -13214,7 +13506,8 @@
     ],
     "accessories": [
       "4 left hands, 4 right hands",
-      "3 faces"
+      "3 faces",
+      "Halo"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
@@ -13226,7 +13519,281 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-          {
+  {
+    "id": "k025",
+    "name": "K025",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-09",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/k025_1.png",
+      "/uploads/k025_2.png"
+    ],
+    "originX": 42,
+    "originY": 5,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+  {
+    "id": "k026",
+    "name": "K026",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-09",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/k026_1.avif",
+      "/uploads/k026_2.avif",
+      "/uploads/k026_3.avif"
+    ],
+    "originX": 60,
+    "originY": 30,
+    "nudgeY": 0,
+    "nudgeZoom": 1.7
+  },
+  {
+    "id": "k027",
+    "name": "K027",
+    "series": "Dragon Ball AF",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-12",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "4 faces",
+      "1 head",
+      "Crossed arms"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/k027_1.avif",
+      "/uploads/k027_2.jpg"
+    ],
+    "originX": 25,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "k028",
+    "name": "K028",
+    "series": "Dragon Ball AF",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-12",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "4 faces",
+      "1 head",
+      "Crossed arms"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/k028_1.jpg",
+      "/uploads/k028_2.webp"
+    ],
+    "originX": 26,
+    "originY": 18,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "k029",
+    "name": "K029",
+    "series": "Dragon Ball AF",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-12",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "4 faces",
+      "1 head",
+      "Crossed arms"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/k029_1.webp",
+      "/uploads/k029_2.webp"
+    ],
+    "originX": 44,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "kong030",
+    "name": "Kong030",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "4 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong030_1.avif",
+      "/uploads/kong030_2.webp"
+    ],
+    "originX": 31,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "kong031",
+    "name": "Kong031",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "4 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong031_1.webp",
+      "/uploads/kong031_2.webp"
+    ],
+    "originX": 31,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "kong032",
+    "name": "Kong032",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "4 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong032_1.webp",
+      "/uploads/kong032_2.webp"
+    ],
+    "originX": 31,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "kong034",
+    "name": "Kong034",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-02",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "4 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong034_1.jpg",
+      "/uploads/kong034_2.webp"
+    ],
+    "originX": 40,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+  {
     "id": "kong015",
     "name": "Kong015",
     "series": "Dragon Ball AF",
@@ -13256,7 +13823,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-            {
+  {
     "id": "kong016",
     "name": "Kong016",
     "series": "Dragon Ball AF",
@@ -13286,7 +13853,67 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-        {
+  {
+    "id": "kong-mastered-ultra-instinct-goku",
+    "name": "Mastered Ultra Instinct Goku",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2021-06",
+    "releasePrecision": "month",
+    "priceUSD": 59,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 5 right hands",
+      "3 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/konguigoku1.png",
+      "/uploads/konguigoku2.webp"
+    ],
+    "originX": 63,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "k013",
+    "name": "K013",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2022-11",
+    "releasePrecision": "month",
+    "priceUSD": 59,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "2 left hands, 3 right hands",
+      "7 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong013_1.avif",
+      "/uploads/kong013_2.avif"
+    ],
+    "originX": 47,
+    "originY": 10,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+  {
     "id": "k018",
     "name": "K018",
     "series": "Dragon Ball Super",
@@ -13317,7 +13944,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.2
   },
-          {
+  {
     "id": "k019",
     "name": "K019",
     "series": "Dragon Ball Super",
@@ -13348,7 +13975,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-              {
+  {
     "id": "kong020",
     "name": "Kong020",
     "series": "Dragon Ball AF",
@@ -13378,10 +14005,10 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-                {
+  {
     "id": "kong014",
     "name": "Kong014",
-    "series": "Dragon Ball AF",
+    "series": "Dragon Ball Super",
     "brand": "Kong Studios",
     "type": "Retail",
     "releaseDate": "2023-01",
@@ -13395,23 +14022,111 @@
     ],
     "accessories": [
       "5 left hands, 5 right hands",
-      "3 faces",
-      "Ki blast effect"
+      "5 faces",
+      "1 head",
+      "Kamehameha"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
-      "/uploads/kong020_1.webp",
-      "/uploads/kong020_2.jpg"
+      "/uploads/kong014_1.webp",
+      "/uploads/kong014_2.jpg"
     ],
-    "originX": 50,
-    "originY": 1,
+    "originX": 66,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+  {
+    "id": "kong009",
+    "name": "Kong009",
+    "series": "Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-01",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong009_1.jpg",
+      "/uploads/kong009_2.webp"
+    ],
+    "originX": 66,
+    "originY": 100,
+    "nudgeY": 0,
+    "nudgeZoom": 1.1
+  },
+  {
+    "id": "kong010",
+    "name": "Kong010",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-01",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong010_1.jpg",
+      "/uploads/kong010_2.png"
+    ],
+    "originX": 66,
+    "originY": 50,
+    "nudgeY": 0,
+    "nudgeZoom": 1.1
+  },
+  {
+    "id": "kong011",
+    "name": "Kong011",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2023-01",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/kong011ssj4_1.webp",
+      "/uploads/kong012_2.avif"
+    ],
+    "originX": 70,
+    "originY": 20,
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-                  {
+  {
     "id": "kong012",
     "name": "Kong012",
-    "series": "Dragon Ball AF",
+    "series": "Dragon Ball Super",
     "brand": "Kong Studios",
     "type": "Retail",
     "releaseDate": "2023-01",
@@ -13425,16 +14140,676 @@
     ],
     "accessories": [
       "5 left hands, 5 right hands",
-      "3 faces",
-      "Ki blast effect"
+      "5 faces"
     ],
     "headerImage": "/uploads/kongstudioslogo.png",
     "images": [
-      "/uploads/kong020_1.webp",
-      "/uploads/kong020_2.jpg"
+      "/uploads/kong012_1.jpg",
+      "/uploads/kong012_2.avif"
+    ],
+    "originX": 100,
+    "originY": 100,
+    "nudgeY": 0,
+    "nudgeZoom": 1.1
+  },
+  {
+    "id": "ultimate-warrior",
+    "name": "Ultimate Warrior",
+    "series": "Dragon Ball AF",
+    "brand": "Black Hole Toys",
+    "type": "Retail",
+    "releaseDate": "2026-02",
+    "releasePrecision": "month",
+    "priceUSD": 65,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/blackholetoyslogo.png",
+    "images": [
+      "/uploads/ultimatewarrior1.jpg",
+      "/uploads/ultimatewarrior2.jpg",
+      "/uploads/ultimatewarrior3.jpg",
+      "/uploads/ultimatewarrior4.jpg"
     ],
     "originX": 50,
-    "originY": 1,
+    "originY": 17,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+  {
+    "id": "jade-rabbit-b001",
+    "name": "Jade Rabbit B001",
+    "series": "Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-11",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "Crossed arms",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/jaderabbitb001_1.png"
+    ],
+    "originX": 67,
+    "originY": 26,
+    "nudgeY": 0,
+    "nudgeZoom": 4
+  },
+  {
+    "id": "jade-rabbit-b002",
+    "name": "Jade Rabbit B002",
+    "series": "Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-11",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "SSJ2 hair piece",
+      "Crossed arms",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/jaderabbitb002_1.jpg"
+    ],
+    "originX": 68,
+    "originY": 12,
+    "nudgeY": 0,
+    "nudgeZoom": 4.5
+  },
+  {
+    "id": "jade-rabbit-b003",
+    "name": "Jade Rabbit B003",
+    "series": "Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-11",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "Crossed arms",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/jaderabbitb003_1.webp"
+    ],
+    "originX": 72,
+    "originY": 12,
+    "nudgeY": 0,
+    "nudgeZoom": 4
+  },
+  {
+    "id": "jade-rabbit-b004",
+    "name": "Jade Rabbit B004",
+    "series": "Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-11",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "Crossed arms",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/jaderabbitb004_1.avif"
+    ],
+    "originX": 68,
+    "originY": 12,
+    "nudgeY": 0,
+    "nudgeZoom": 4
+  },
+  {
+    "id": "jade-rabbit-b005",
+    "name": "Jade Rabbit B005",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-12",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "8 faces",
+      "2 heads",
+      "Crossed arms",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/jaderabbitb005_1.jpg"
+    ],
+    "originX": 67,
+    "originY": 6,
+    "nudgeY": 0,
+    "nudgeZoom": 4
+  },
+  {
+    "id": "waghoba-b006",
+    "name": "Waghoba B006",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-08",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "8 faces",
+      "2 heads",
+      "SSJ2 hair piece",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/waghobab006_1.jpg"
+    ],
+    "originX": 60,
+    "originY": 17,
+    "nudgeY": 0,
+    "nudgeZoom": 7
+  },
+  {
+    "id": "waghoba-b007",
+    "name": "Waghoba B007",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-08",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "8 faces",
+      "2 heads",
+      "SSB2 hair piece",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/waghobab007_1.jpg"
+    ],
+    "originX": 56,
+    "originY": 24,
+    "nudgeY": 0,
+    "nudgeZoom": 7
+  },
+  {
+    "id": "waghoba-b008",
+    "name": "Waghoba B008",
+    "series": "Dragon Ball FighterZ",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-08",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "8 faces",
+      "2 heads",
+      "SSJ2 hair piece",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/waghobab008_1.jpg"
+    ],
+    "originX": 60,
+    "originY": 12,
+    "nudgeY": 0,
+    "nudgeZoom": 6
+  },
+  {
+    "id": "waghoba-b009",
+    "name": "Waghoba B009",
+    "series": "Dragon Ball Super",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-08",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "12 faces",
+      "3 heads",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/waghobab009_1.jpg"
+    ],
+    "originX": 56,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 6
+  },
+  {
+    "id": "narasimha-021",
+    "name": "Narasimha 021",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-05",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces",
+      "1 head",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/narasimhak021_1.webp",
+      "/uploads/narasimhak021_2.webp"
+    ],
+    "originX": 53,
+    "originY": 30,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+  {
+    "id": "narasimha-022",
+    "name": "Narasimha 022",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-05",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces",
+      "1 head",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/narasimhak022_1.jpg",
+      "/uploads/narasimhak021_2.webp"
+    ],
+    "originX": 60,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1.7
+  },
+  {
+    "id": "narasimha-023",
+    "name": "Narasimha 023",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-05",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces",
+      "1 head",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/narasimhak023_1.jpg",
+      "/uploads/narasimhak021_2.webp"
+    ],
+    "originX": 50,
+    "originY": 35,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+  {
+    "id": "narasimha-024",
+    "name": "Narasimha 024",
+    "series": "Dragon Ball Z",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-05",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "5 faces",
+      "1 head",
+      "Halo"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/narasimhak024_1.webp",
+      "/uploads/narasimhak021_2.webp"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+  {
+    "id": "narasimha-b04",
+    "name": "Narasimha B04",
+    "series": "Dragon Ball AF",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2024-07",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "7 faces",
+      "2 heads",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/narasimhab04_1.jpg",
+      "/uploads/narasimhab04_2.avif"
+    ],
+    "originX": 36,
+    "originY": 10,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+    {
+    "id": "one-armed-demon-hawk-haz001",
+    "name": "One Armed Demon Hawk HAZ001",
+    "series": "Dragon Ball Z",
+    "brand": "HAZ Studio",
+    "type": "Retail",
+    "releasePrecision": "month",
+    "releaseDate": "2026-02",
+    "priceUSD": 80,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "10 faces",
+      "2 heads",
+      "Hair part",
+      "Left arm",
+      "Upper left arm",
+      "Sash part"
+    ],
+    "headerImage": "/uploads/hazstudiologo.png",
+    "images": [
+      "/uploads/haz001_1.webp",
+      "/uploads/haz001_2.webp",
+      "/uploads/haz001_3.webp",
+      "/uploads/haz001_4.webp",
+      "/uploads/haz001_5.webp",
+      "/uploads/haz001_6.webp",
+      "/uploads/haz001_7.webp",
+      "/uploads/haz001_8.webp",
+      "/uploads/haz001_9.webp",
+      "/uploads/haz001_10.webp",
+      "/uploads/haz001_11.webp",
+      "/uploads/haz001_12.webp",
+      "/uploads/haz001_13.webp",
+      "/uploads/haz001_14.webp",
+      "/uploads/haz001_15.webp",
+      "/uploads/haz001_16.webp"
+    ],
+    "originX": 60,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1.3
+  },
+    {
+    "id": "skoll-ma08l",
+    "name": "Skoll MA08L",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-01",
+    "releasePrecision": "month",
+    "priceUSD": 100,
+    "heightIn": 10.8,
+    "heightMm": 273,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "6 faces",
+      "1 head",
+      "Earrings",
+      "Ki blast",
+      "Ki beam effect",
+      "Cloak",
+      "Pencil"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/skollma08l1.webp",
+      "/uploads/skollma08l2.webp",
+      "/uploads/skollma08l3.webp",
+      "/uploads/skollma08l4.jpg"
+    ],
+    "originX": 45,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "skoll-ma09l",
+    "name": "Skoll MA09L",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-01",
+    "releasePrecision": "month",
+    "priceUSD": 100,
+    "heightIn": 10.8,
+    "heightMm": 273,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "6 faces",
+      "1 head",
+      "Earrings",
+      "Ki blast",
+      "Ki beam effect",
+      "Cloak",
+      "Pencil"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/skollma09l1.webp",
+      "/uploads/skollma09l2.webp",
+      "/uploads/skollma09l3.webp",
+      "/uploads/skollma09l4.jpg"
+    ],
+    "originX": 45,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+        {
+    "id": "skoll-ma10l",
+    "name": "Skoll MA10L",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-01",
+    "releasePrecision": "month",
+    "priceUSD": 115,
+    "heightIn": 10.8,
+    "heightMm": 273,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "6 faces",
+      "1 head",
+      "Earrings",
+      "Ki blast",
+      "Ki beam effect",
+      "Cloak",
+      "Pencil"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/skollma10l1.webp",
+      "/uploads/skollma10l2.webp",
+      "/uploads/skollma10l3.webp",
+      "/uploads/skollma10l4.jpg"
+    ],
+    "originX": 70,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2.5
+  },
+          {
+    "id": "skoll-ma11l",
+    "name": "Skoll MA11L",
+    "series": "Dragon Ball AF",
+    "brand": "Kong Studios",
+    "type": "Retail",
+    "releaseDate": "2026-01",
+    "releasePrecision": "month",
+    "priceUSD": 110,
+    "heightIn": 10.8,
+    "heightMm": 273,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "6 faces",
+      "1 head",
+      "Earrings",
+      "Ki blast",
+      "Ki beam effect",
+      "Cloak",
+      "Pencil"
+    ],
+    "headerImage": "/uploads/kongstudioslogo.png",
+    "images": [
+      "/uploads/skollma11l1.webp",
+      "/uploads/skollma11l2.webp",
+      "/uploads/skollma11l3.jpg"
+    ],
+    "originX": 60,
+    "originY": 15,
     "nudgeY": 0,
     "nudgeZoom": 2
   }

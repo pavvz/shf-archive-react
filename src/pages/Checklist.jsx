@@ -52,7 +52,7 @@ export default function Checklist() {
   return (
     <section>
       <Helmet>
-        <title>Checklist - Dragon Ball Action Figures</title>
+        <title>Checklist — Dragon Ball Action Figures</title>
         <meta
           name="description"
           content="Track your S.H.Figuarts Dragon Ball collection."

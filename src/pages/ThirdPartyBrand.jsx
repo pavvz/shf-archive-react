@@ -13,7 +13,7 @@ export default function ThirdPartyBrand() {
 
   const brandName = decodeURIComponent(brand)
 
-  const seoTitle = `${brandName} - Dragon Ball Action Figures`
+  const seoTitle = `${brandName} — Dragon Ball Action Figures`
   const seoDescription = `Browse info on all ${brandName} Dragon Ball action figures.`
   const canonicalUrl = `https://dragonballactionfigures.com/third-party/${encodeURIComponent(brandName)}`
 

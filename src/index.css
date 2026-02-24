@@ -295,7 +295,7 @@ nav.site-menu > a:focus-visible,
 .search {
   position: relative;
   flex: 1 1 280px;
-  max-width: 320px;
+  max-width: 260px;
 }
 .search input {
   width: 100%;

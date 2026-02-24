@@ -8,7 +8,7 @@ import BrandTitle from '../components/BrandTitle'
 import BrandBlurb from '../components/BrandBlurb'
 import { Helmet } from "react-helmet-async";
 
-const BRAND_ORDER = ['S.H.Figuarts', 'Demoniacal Fit', 'Kong Studios', 'Tonsen Arttoys', 'Black Hole Toys'] // extend as needed
+const BRAND_ORDER = ['S.H.Figuarts', 'Demoniacal Fit', 'Kong Studios', 'Black Hole Toys', 'Tonsen Arttoys', 'Three S Studio', 'OC Toys', 'WOW! Super Action!', 'E&C', 'WP Model', 'ZT Toys', 'LS Studio', 'HAZ Studio'] // extend as needed
 
 function brandLink(brand) {
   return brand === 'S.H.Figuarts'

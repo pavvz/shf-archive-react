@@ -133,23 +133,23 @@ export default function FigureDetail() {
       ? (ogImagePath.startsWith('http') ? ogImagePath : `https://dragonballactionfigures.com${ogImagePath.startsWith('/') ? ogImagePath : `/${ogImagePath}`}`)
       : 'https://dragonballactionfigures.com/seo/og-home.jpg'
 
-  const baseTitle = hasSubtitle ? `${fig.name} — ${fig.altTitle}` : fig.name
+  const baseTitle = hasSubtitle ? `${fig.name} ${fig.altTitle}` : fig.name
   const seoFigureTitle = fig.brand ? `${fig.brand} ${baseTitle}` : baseTitle
 
   return (
     <section className="detail-grid">
       <Helmet>
-        <title>{seoFigureTitle} - Dragon Ball Action Figures</title>
+        <title>{seoFigureTitle} — Dragon Ball Action Figures</title>
         <meta name="description" content={seoDescription} />
         <link rel="canonical" href={canonicalUrl} />
 
-        <meta property="og:title" content={`${seoFigureTitle} - Dragon Ball Action Figures`} />
+        <meta property="og:title" content={`${seoFigureTitle} — Dragon Ball Action Figures`} />
         <meta property="og:description" content={seoDescription} />
         <meta property="og:url" content={canonicalUrl} />
         <meta property="og:image" content={ogImage} />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${seoFigureTitle} - Dragon Ball Action Figures`} />
+        <meta name="twitter:title" content={`${seoFigureTitle} — Dragon Ball Action Figures`} />
         <meta name="twitter:description" content={seoDescription} />
         <meta name="twitter:image" content={ogImage} />
       </Helmet>
