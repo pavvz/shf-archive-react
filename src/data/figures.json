@@ -11964,7 +11964,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-    {
+  {
     "id": "forest-bear",
     "name": "Forest Bear",
     "series": "Dragon Ball Z",
@@ -14618,7 +14618,7 @@
     "nudgeY": 0,
     "nudgeZoom": 3
   },
-    {
+  {
     "id": "one-armed-demon-hawk-haz001",
     "name": "One Armed Demon Hawk HAZ001",
     "series": "Dragon Ball Z",
@@ -14666,7 +14666,7 @@
     "nudgeY": 0,
     "nudgeZoom": 1.3
   },
-    {
+  {
     "id": "skoll-ma08l",
     "name": "Skoll MA08L",
     "series": "Super Dragon Ball Heroes",
@@ -14703,7 +14703,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-      {
+  {
     "id": "skoll-ma09l",
     "name": "Skoll MA09L",
     "series": "Super Dragon Ball Heroes",
@@ -14740,7 +14740,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2
   },
-        {
+  {
     "id": "skoll-ma10l",
     "name": "Skoll MA10L",
     "series": "Super Dragon Ball Heroes",
@@ -14777,7 +14777,7 @@
     "nudgeY": 0,
     "nudgeZoom": 2.5
   },
-          {
+  {
     "id": "skoll-ma11l",
     "name": "Skoll MA11L",
     "series": "Dragon Ball AF",
@@ -14812,5 +14812,46 @@
     "originY": 15,
     "nudgeY": 0,
     "nudgeZoom": 2
+  },
+  {
+    "id": "kw005",
+    "name": "KW005",
+    "series": "Dragon Ball Z",
+    "brand": "K.W. Studio",
+    "type": "Retail",
+    "releaseDate": "2025-10",
+    "releasePrecision": "month",
+    "priceUSD": 75,
+    "heightIn": 2.73,
+    "heightMm": 70,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "4 faces",
+      "2 heads",
+      "2 Kamehamehas",
+      "Damaged shoulder parts",
+      "3 hands for S.H.Figuarts Super Saiyan Son Gohan -The Warrior Who Surpassed Goku-",
+      "Stand"
+    ],
+    "headerImage": "/uploads/kwstudiologo.png",
+    "images": [
+      "/uploads/kw005_1.webp",
+      "/uploads/kw005_2.webp",
+      "/uploads/kw005_3.webp",
+      "/uploads/kw005_4.webp",
+      "/uploads/kw005_5.webp",
+      "/uploads/kw005_6.webp",
+      "/uploads/kw005_7.webp",
+      "/uploads/kw005_8.webp",
+      "/uploads/kw005_9.webp"
+    ],
+    "originX": 30,
+    "originY": 55,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
   }
 ]

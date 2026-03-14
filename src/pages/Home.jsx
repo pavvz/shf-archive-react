@@ -8,7 +8,7 @@ import BrandTitle from '../components/BrandTitle'
 import BrandBlurb from '../components/BrandBlurb'
 import { Helmet } from "react-helmet-async";
 
-const BRAND_ORDER = ['S.H.Figuarts', 'Demoniacal Fit', 'Kong Studios', 'Black Hole Toys', 'Tonsen Arttoys', 'Three S Studio', 'OC Toys', 'WOW! Super Action!', 'E&C', 'WP Model', 'ZT Toys', 'LS Studio', 'HAZ Studio'] // extend as needed
+const BRAND_ORDER = ['S.H.Figuarts', 'Demoniacal Fit', 'Kong Studios', 'Black Hole Toys', 'Tonsen Arttoys', 'Three S Studio', 'OC Toys', 'WOW! Super Action!', 'E&C', 'WP Model', 'K.W. Studio', 'ZT Toys', 'LS Studio', 'HAZ Studio'] // extend as needed
 
 function brandLink(brand) {
   return brand === 'S.H.Figuarts'
@@ -34,6 +34,15 @@ export default function Home() {
 
   const orderedBrands = BRAND_ORDER.filter(b => byBrand[b]?.length)
     .concat(Object.keys(byBrand).filter(b => !BRAND_ORDER.includes(b)))
+
+const handleBackToTop = () => {
+  try {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  } catch (e) {
+    // Fallback for browsers that don't support the options object
+    window.scrollTo(0, 0);
+  }
+};
 
   return (
     <>
@@ -81,12 +90,7 @@ export default function Home() {
         })}
 
         <div className="home-bottom">
-          <button
-            className="btn back-to-top"
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          >
-            Back to Top
-          </button>
+
         </div>
       </main>
     </>

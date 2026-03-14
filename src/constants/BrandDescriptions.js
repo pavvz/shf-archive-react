@@ -11,5 +11,6 @@ export const BRAND_DESCRIPTIONS = {
   'E&C': 'A former third party accessory brand (A.K.A. N&T) that has moved on to making their own figures.',
   'WP Model': 'WP Model came into the third party scene with a focus on remaking the expensive S.H.Figuarts Ginyu Force figures for an affordable price, starting with Jeice.',
   'ZT Toys': 'ZT Toys entered the third party scene strong with their highly praised Broly figures.',
-  'HAZ Studio': 'This third party brand seemingly came out of no where with the first Future Gohan figure on the market.'
+  'HAZ Studio': 'This third party brand seemingly came out of no where with the first Future Gohan figure on the market.',
+  'K.W. Studio': 'Originally a third party accessory brand, they came into the third party figure scene with their Cell Jr. figures.'
 }
