@@ -14853,5 +14853,235 @@
     "originY": 55,
     "nudgeY": 0,
     "nudgeZoom": 1.5
+  },
+    {
+    "id": "frieza-fourth-form-the-universes-bottomless-power",
+    "name": "Frieza Fourth Form",
+    "altTitle": "<The Universe's Bottomless Power>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2026-10",
+    "releasePrecision": "month",
+    "priceUSD": 40,
+    "priceJPY": 4000,
+    "heightIn": 5.68,
+    "heightMm": 120,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 heads",
+      "Tail part",
+      "1 left foot, 1 right foot"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/frieza4thformtubp1.jpg",
+      "/uploads/frieza4thformtubp2.jpg",
+      "/uploads/frieza4thformtubp3.jpg",
+      "/uploads/frieza4thformtubp4.jpg",
+      "/uploads/frieza4thformtubp5.jpg",
+      "/uploads/frieza4thformtubp6.jpg",
+      "/uploads/frieza4thformtubp7.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 1.8
+  },
+    {
+    "id": "super-saiyan-4-goku-daima",
+    "name": "Super Saiyan 4 Son Goku",
+    "altTitle": "-Daima-",
+    "series": "Dragon Ball Daima",
+    "brand": "S.H.Figuarts",
+    "type": "Premium Bandai Exclusive",
+    "releaseDate": "2026-12",
+    "releasePrecision": "month",
+    "priceUSD": 75,
+    "priceJPY": 8000,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 5 right hands",
+      "4 faces",
+      "Kamehameha",
+      "Son Goku -Daima- face",
+      "Son Goku -Daima- holstered Power Pole"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssj4gokudaima1.jpg",
+      "/uploads/ssj4gokudaima2.jpg",
+      "/uploads/ssj4gokudaima3.jpg",
+      "/uploads/ssj4gokudaima4.jpg",
+      "/uploads/ssj4gokudaima5.jpg",
+      "/uploads/ssj4gokudaima6.jpg",
+      "/uploads/ssj4gokudaima7.jpg",
+      "/uploads/ssj4gokudaima8.jpg"
+    ],
+    "originX": 55,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "dragon-blaster",
+    "name": "Dragon Blaster",
+    "series": "Dragon Ball Z",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-04",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "5 faces",
+      "Stand"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/dragonblaster1.jpg",
+      "/uploads/dragonblaster2.jpg",
+      "/uploads/dragonblaster3.jpg",
+      "/uploads/dragonblaster4.jpg",
+      "/uploads/dragonblaster5.jpg",
+      "/uploads/dragonblaster6.jpg",
+      "/uploads/dragonblaster7.jpg",
+      "/uploads/dragonblaster8.jpg",
+      "/uploads/dragonblaster9.jpg",
+      "/uploads/dragonblaster10.jpg",
+      "/uploads/dragonblaster11.jpg",
+      "/uploads/dragonblaster12.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "zt-toys-02",
+    "name": "ZT-Toys 02",
+    "series": "Dragon Ball Z",
+    "brand": "ZT Toys",
+    "type": "Retail",
+    "releaseDate": "2026-04",
+    "releasePrecision": "month",
+    "priceUSD": 130,
+    "heightIn": 10.2,
+    "heightMm": 260,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "5 faces",
+      "1 head",
+      "Crossed arms",
+      "Earrings",
+      "3 Ki blasts",
+      "Neck peg"
+    ],
+    "headerImage": "/uploads/zttoyslogo.png",
+    "images": [
+      "/uploads/ztlssjbroly1.webp",
+      "/uploads/ztlssjbroly2.webp",
+      "/uploads/ztlssjbroly3.webp",
+      "/uploads/ztlssjbroly4.webp",
+      "/uploads/ztlssjbroly5.webp",
+      "/uploads/ztlssjbroly6.webp"
+    ],
+    "originX": 50,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "vf01a",
+    "name": "VF-01A",
+    "series": "Dragon Ball Super",
+    "brand": "VitoForge",
+    "type": "Retail",
+    "releaseDate": "2026-04",
+    "releasePrecision": "month",
+    "priceUSD": 66,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "7 left hands, 6 right hands",
+      "8 faces",
+      "3 heads",
+      "2 neck pegs",
+      "Alternate shirt",
+      "Alternate belt piece",
+      "Alternate waist piece",
+      "Ki blade",
+      "Ki scythe"
+    ],
+    "headerImage": "/uploads/vitoforgelogo.png",
+    "images": [
+      "/uploads/vitoforge01a1.webp",
+      "/uploads/vitoforge01a2.jpg"
+    ],
+    "originX": 50,
+    "originY": 50,
+    "nudgeY": 0,
+    "nudgeZoom": 1
+  },
+      {
+    "id": "vf01b",
+    "name": "VF-01B",
+    "series": "Dragon Ball: Sparking! Zero",
+    "brand": "VitoForge",
+    "type": "Retail",
+    "releaseDate": "2026-04",
+    "releasePrecision": "month",
+    "priceUSD": 66,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "7 left hands, 6 right hands",
+      "8 faces",
+      "3 heads",
+      "2 neck pegs",
+      "Alternate shirt",
+      "Alternate belt piece",
+      "Alternate waist piece",
+      "Ki blade",
+      "Ki scythe"
+    ],
+    "headerImage": "/uploads/vitoforgelogo.png",
+    "images": [
+      "/uploads/vitoforge01b1.webp",
+      "/uploads/vitoforge01b2.webp",
+      "/uploads/vitoforge01b3.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
   }
 ]
