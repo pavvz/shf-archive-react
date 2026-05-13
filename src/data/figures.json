@@ -15083,5 +15083,46 @@
     "originY": 20,
     "nudgeY": 0,
     "nudgeZoom": 2
+  },
+    {
+    "id": "super-saiyan-3-vegeta-daima",
+    "name": "Super Saiyan 3 Vegeta",
+    "altTitle": "-Daima-",
+    "series": "Dragon Ball Daima",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2027-01",
+    "releasePrecision": "month",
+    "priceUSD": 75,
+    "priceJPY": 7500,
+    "heightIn": 5.9,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 5 right hands",
+      "3 faces",
+      "1 head",
+      "Crossed arms",
+      "Final Flash effect parts",
+      "Alternate hair piece for stand",
+      "S.H.Figuarts Son Goku -Daima- crossed arms"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssj3vegetadaima1.jpg",
+      "/uploads/ssj3vegetadaima2.jpg",
+      "/uploads/ssj3vegetadaima3.jpg",
+      "/uploads/ssj3vegetadaima4.jpg",
+      "/uploads/ssj3vegetadaima5.jpg",
+      "/uploads/ssj3vegetadaima6.jpg",
+      "/uploads/ssj3vegetadaima7.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
   }
 ]
