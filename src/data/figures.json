@@ -7927,7 +7927,7 @@
     "nudgeZoom": 2
   },
   {
-    "id": "king-dogmah",
+    "id": "king-gomah",
     "name": "King Gomah",
     "series": "Dragon Ball Daima",
     "brand": "S.H.Figuarts",
@@ -14831,10 +14831,7 @@
     "accessories": [
       "4 left hands, 4 right hands",
       "4 faces",
-      "2 heads",
-      "2 Kamehamehas",
-      "Damaged shoulder parts",
-      "3 hands for S.H.Figuarts Super Saiyan Son Gohan -The Warrior Who Surpassed Goku-",
+      "Kamehameha",
       "Stand"
     ],
     "headerImage": "/uploads/kwstudiologo.png",
@@ -14846,8 +14843,7 @@
       "/uploads/kw005_5.webp",
       "/uploads/kw005_6.webp",
       "/uploads/kw005_7.webp",
-      "/uploads/kw005_8.webp",
-      "/uploads/kw005_9.webp"
+      "/uploads/kw005_8.webp"
     ],
     "originX": 30,
     "originY": 55,
@@ -15124,5 +15120,534 @@
     "originY": 20,
     "nudgeY": 0,
     "nudgeZoom": 2
+  },
+      {
+    "id": "martialist-forever-evolve-in-combat",
+    "name": "Martialist Forever",
+    "altTitle": "-Evolve in Combat-",
+    "series": "Dragon Ball Z",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 41,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "5 left hands, 4 right hands",
+      "3 faces",
+      "Crossed arms"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/martialistforevereic1.jpg",
+      "/uploads/martialistforevereic2.jpg",
+      "/uploads/martialistforevereic3.jpg",
+      "/uploads/martialistforevereic4.jpg",
+      "/uploads/martialistforevereic5.jpg",
+      "/uploads/martialistforevereic6.jpg",
+      "/uploads/martialistforevereic7.jpg",
+      "/uploads/martialistforevereic8.jpg",
+      "/uploads/martialistforevereic9.jpg",
+      "/uploads/martialistforevereic10.jpg",
+      "/uploads/martialistforevereic11.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+        {
+    "id": "savage-duo",
+    "name": "Savage Duo",
+    "series": "Dragon Ball GT",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 65,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "6 left hands, 7 right hands",
+      "5 faces",
+      "Crossed arms",
+      "2 fusion dance hands for Untamed Power",
+      "2 fusion dance hands for S.H.Figuarts Super Saiyan 4 Vegeta"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/savageduo1.jpg",
+      "/uploads/savageduo2.jpg",
+      "/uploads/savageduo3.jpg",
+      "/uploads/savageduo4.jpg",
+      "/uploads/savageduo5.jpg",
+      "/uploads/savageduo6.jpg",
+      "/uploads/savageduo7.jpg",
+      "/uploads/savageduo8.jpg",
+      "/uploads/savageduo9.jpg",
+      "/uploads/savageduo10.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "son-gohan-z-fighters",
+    "name": "Son Gohan",
+    "altTitle": "<Z Fighters>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2026-11",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "priceJPY": 7000,
+    "heightIn": 5.9,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "3 faces",
+      "1 head",
+      "<Z-Fighters> Group Base Ver. A (only from first-run limited edition)"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/songohanzfighters1.jpg",
+      "/uploads/songohanzfighters2.jpg",
+      "/uploads/songohanzfighters3.jpg",
+      "/uploads/songohanzfighters4.jpg",
+      "/uploads/songohanzfighters5.jpg",
+      "/uploads/songohanzfighters6.jpg",
+      "/uploads/songohanzfighters7.jpg",
+      "/uploads/songohanzfighters8.jpg"
+    ],
+    "originX": 50,
+    "originY": 28,
+    "nudgeY": 0,
+    "nudgeZoom": 1.7
+  },
+    {
+    "id": "walk-fu-03a",
+    "name": "Walk Fu 03A",
+    "series": "Dragon Ball GT",
+    "brand": "Tonsen Arttoys",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 77,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "6 faces",
+      "1 head",
+      "Crossed arms",
+      "Alternate forearms",
+      "Alternate shoulder parts",
+      "Alternate hair piece",
+      "Bendable tail",
+      "Bluff Kamehameha effect",
+      "Big Bang Kamehameha effects",
+      "Big Bang Kamehameha effect stand",
+      "Vest",
+      "2 vest parts"
+    ],
+    "headerImage": "/uploads/tonsenlogo.png",
+    "images": [
+      "/uploads/walkfu03A1.webp",
+      "/uploads/walkfu03A2.webp",
+      "/uploads/walkfu03A3.webp",
+      "/uploads/walkfu03A4.webp",
+      "/uploads/walkfu03A5.jpg",
+      "/uploads/walkfu03A6.jpg",
+      "/uploads/walkfu03A7.webp",
+      "/uploads/walkfu03A8.webp",
+      "/uploads/walkfu03A9.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "walk-fu-03b",
+    "name": "Walk Fu 03B",
+    "series": "Dragon Ball GT",
+    "brand": "Tonsen Arttoys",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 77,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "6 faces",
+      "1 head",
+      "Crossed arms",
+      "Alternate forearms",
+      "Alternate shoulder parts",
+      "Alternate hair piece",
+      "Bendable tail",
+      "Bluff Kamehameha effect",
+      "Big Bang Kamehameha effects",
+      "Big Bang Kamehameha effect stand",
+      "Vest",
+      "2 vest parts"
+    ],
+    "headerImage": "/uploads/tonsenlogo.png",
+    "images": [
+      "/uploads/walkfu03B1.webp",
+      "/uploads/walkfu03B2.jpg",
+      "/uploads/walkfu03B3.webp",
+      "/uploads/walkfu03B4.webp",
+      "/uploads/walkfu03B5.webp",
+      "/uploads/walkfu03B6.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+        {
+    "id": "recoome-the-nightmare-recoome",
+    "name": "Recoome",
+    "altTitle": "<The Nightmare Recoom>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2027-02",
+    "releasePrecision": "month",
+    "priceUSD": 85,
+    "priceJPY": 9000,
+    "heightIn": 7.80,
+    "heightMm": 200,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "4 heads",
+      "Recoome Eraser Gun effect",
+      "Recoome Eraser Gun effect stand"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/recoometnr1.jpg",
+      "/uploads/recoometnr2.jpg",
+      "/uploads/recoometnr3.jpg",
+      "/uploads/recoometnr4.jpg",
+      "/uploads/recoometnr5.jpg",
+      "/uploads/recoometnr6.jpg",
+      "/uploads/recoometnr7.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "ssgss-gogeta-sdcc-2026",
+    "name": "Super Saiyan God Super Saiyan Gogeta",
+    "altTitle": "-Exclusive Edition-",
+    "series": "Dragon Ball Super",
+    "brand": "S.H.Figuarts",
+    "type": "Event Exclusive",
+    "event": "San Diego Comic Con 2026",
+    "releaseDate": "2026-07-23",
+    "priceUSD": 80,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssgssgogetasdcc1.jpg",
+      "/uploads/ssgssgogetasdcc2.jpg",
+      "/uploads/ssgssgogetasdcc3.jpg",
+      "/uploads/ssgssgogetasdcc4.jpg",
+      "/uploads/ssgssgogetasdcc5.jpg",
+      "/uploads/ssgssgogetasdcc6.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "ssj-gotenks-sdcc-2026",
+    "name": "Super Saiyan Gotenks",
+    "altTitle": "-Exclusive Edition-",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Event Exclusive",
+    "event": "San Diego Comic Con 2026",
+    "releaseDate": "2026-07-23",
+    "priceUSD": 70,
+    "heightIn": 5.07,
+    "heightMm": 130,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "2 left hands, 3 right hands",
+      "1 face",
+      "Ghost",
+      "Ghosts acrylic effect",
+      "Stand"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssjgotenkssdcc1.jpg",
+      "/uploads/ssjgotenkssdcc2.jpg",
+      "/uploads/ssjgotenkssdcc3.jpg",
+      "/uploads/ssjgotenkssdcc4.jpg",
+      "/uploads/ssjgotenkssdcc5.jpg",
+      "/uploads/ssjgotenkssdcc6.jpg"
+    ],
+    "originX": 50,
+    "originY": 35,
+    "nudgeY": 0,
+    "nudgeZoom": 1.8
+  },
+    {
+    "id": "ssj-goku-mini-daima-sdcc-2026",
+    "name": "Super Saiyan Son Goku (Mini) -Daima-",
+    "altTitle": "-Exclusive Edition-",
+    "series": "Dragon Ball Daima",
+    "brand": "S.H.Figuarts",
+    "type": "Event Exclusive",
+    "event": "San Diego Comic Con 2026",
+    "releaseDate": "2026-07-23",
+    "priceUSD": 50,
+    "heightIn": 2.93,
+    "heightMm": 75,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "Power Pole",
+      "Gi part"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssjgokuminidaimasdcc1.jpg",
+      "/uploads/ssjgokuminidaimasdcc2.jpg",
+      "/uploads/ssjgokuminidaimasdcc3.jpg",
+      "/uploads/ssjgokuminidaimasdcc4.jpg",
+      "/uploads/ssjgokuminidaimasdcc5.jpg",
+      "/uploads/ssjgokuminidaimasdcc6.jpg"
+    ],
+    "originX": 50,
+    "originY": 60,
+    "nudgeY": 0,
+    "nudgeZoom": 1.4
+  },
+    {
+    "id": "zt-toys-03",
+    "name": "ZT-Toys 03",
+    "series": "Dragon Ball Heroes",
+    "brand": "ZT Toys",
+    "type": "Retail",
+    "releaseDate": "2026-06",
+    "releasePrecision": "month",
+    "priceUSD": 130,
+    "heightIn": 10.2,
+    "heightMm": 260,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "5 faces",
+      "1 head",
+      "Crossed arms",
+      "Earrings",
+      "3 Ki blasts",
+      "Neck peg"
+    ],
+    "headerImage": "/uploads/zttoyslogo.png",
+    "images": [
+      "/uploads/ztssj3broly1.jpg",
+      "/uploads/ztssj3broly2.avif",
+      "/uploads/ztssj3broly3.avif"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "kw006a",
+    "name": "KW006A",
+    "series": "Dragon Ball Z",
+    "brand": "K.W. Studio",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 86,
+    "heightIn": 7.50,
+    "heightMm": 190,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "4 faces",
+      "1 head",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kwstudiologo.png",
+    "images": [
+      "/uploads/kw006a1.webp",
+      "/uploads/kw006a2.webp",
+      "/uploads/kw006a4.webp"
+    ],
+    "originX": 50,
+    "originY": 27,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+      {
+    "id": "kw006a-dx",
+    "name": "KW006A DX",
+    "series": "Dragon Ball Z",
+    "brand": "K.W. Studio",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 106,
+    "heightIn": 7.50,
+    "heightMm": 190,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "4 faces",
+      "3 heads",
+      "Kamehameha",
+      "Damaged parts",
+      "Cell Jr. part",
+      "Stand"
+    ],
+    "headerImage": "/uploads/kwstudiologo.png",
+    "images": [
+      "/uploads/kw006a1.webp",
+      "/uploads/kw006a2.webp",
+      "/uploads/kw006a3.webp",
+      "/uploads/kw006a4.webp"
+    ],
+    "originX": 50,
+    "originY": 27,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+      {
+    "id": "kw006b",
+    "name": "KW006B",
+    "series": "Dragon Ball Z",
+    "brand": "K.W. Studio",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 86,
+    "heightIn": 7.50,
+    "heightMm": 190,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "4 faces",
+      "1 head",
+      "Kamehameha"
+    ],
+    "headerImage": "/uploads/kwstudiologo.png",
+    "images": [
+      "/uploads/kw006b1.webp",
+      "/uploads/kw006b2.webp",
+      "/uploads/kw006a4.webp"
+    ],
+    "originX": 50,
+    "originY": 27,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+      {
+    "id": "kw006b-dx",
+    "name": "KW006B DX",
+    "series": "Dragon Ball Z",
+    "brand": "K.W. Studio",
+    "type": "Retail",
+    "releaseDate": "2026-05",
+    "releasePrecision": "month",
+    "priceUSD": 106,
+    "heightIn": 7.50,
+    "heightMm": 190,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "4 faces",
+      "3 heads",
+      "Kamehameha",
+      "Damaged parts",
+      "Cell Jr. part",
+      "Stand"
+    ],
+    "headerImage": "/uploads/kwstudiologo.png",
+    "images": [
+      "/uploads/kw006b1.webp",
+      "/uploads/kw006b2.webp",
+      "/uploads/kw006b3.webp",
+      "/uploads/kw006a4.webp"
+    ],
+    "originX": 50,
+    "originY": 27,
+    "nudgeY": 0,
+    "nudgeZoom": 3
   }
 ]
