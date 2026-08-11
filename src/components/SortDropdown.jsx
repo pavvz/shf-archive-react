@@ -17,7 +17,7 @@ export default function SortDropdown({ value, onChange }){
       <option value={SORTS.OLD_TO_NEW}>Release date — Old to New</option>
       <option value={SORTS.AZ}>Alphabetical — A → Z</option>
       <option value={SORTS.ZA}>Alphabetical — Z → A</option>
-      <option value={SORTS.TYPE}>Figure Type — Retail / Premium Bandai / Event / Tamashii Store / V-Jump</option>
+      <option value={SORTS.TYPE}>Type</option>
       <option value={SORTS.SERIES_AZ}>Series — A → Z</option>
       <option value={SORTS.SERIES_ZA}>Series — Z → A</option>
     </select>

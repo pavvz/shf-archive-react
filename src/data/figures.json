@@ -5728,7 +5728,7 @@
     "headerImage": "/uploads/shflogo.png",
     "images": [
       "/uploads/ssjtrunkstbftf1.jpg",
-      "/uploads/ssjtrunkstbftf1.jpg",
+      "/uploads/ssjtrunkstbftf2.jpg",
       "/uploads/ssjtrunkstbftf3.jpg",
       "/uploads/ssjtrunkstbftf4.jpg",
       "/uploads/ssjtrunkstbftf5.jpg",
@@ -12675,7 +12675,7 @@
     "altTitle": "<Onward to Adventure>",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
-    "type": "Event Exclusive",
+    "type": "Retail",
     "releaseDate": "2026-10-23",
     "priceJPY": 12000,
     "heightIn": 5.66,
@@ -15649,5 +15649,407 @@
     "originY": 27,
     "nudgeY": 0,
     "nudgeZoom": 3
+  },
+    {
+    "id": "cell-shell",
+    "name": "Cell Shell",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2022-10-14",
+    "priceUSD": 80,
+    "priceJPY": 6980,
+    "heightIn": 3.51,
+    "heightMm": 90,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/cellshell1.jpg",
+      "/uploads/cellshell2.jpg",
+      "/uploads/cellshell3.webp",
+      "/uploads/cellshell4.jpg"
+    ],
+    "originX": 70,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 1
+  },
+    {
+    "id": "full-power-frieza-battle-scarred-edition",
+    "name": "Full Power Frieza",
+    "altTitle": "-Battle Scarred Edition-",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Premium Bandai Exclusive",
+    "releaseDate": "2027-03",
+    "releasePrecision": "month",
+    "priceUSD": 85,
+    "priceJPY": 8500,
+    "heightIn": 4.88,
+    "heightMm": 125,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "3 heads",
+      "1 left foot, 1 right foot",
+      "Super Saiyan Son Goku -Legendary Super Saiyan- head"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/fullpowerfriezabse1.jpg",
+      "/uploads/fullpowerfriezabse2.jpg",
+      "/uploads/fullpowerfriezabse3.jpg",
+      "/uploads/fullpowerfriezabse4.jpg",
+      "/uploads/fullpowerfriezabse5.jpg",
+      "/uploads/fullpowerfriezabse6.jpg",
+      "/uploads/fullpowerfriezabse7.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+    {
+    "id": "untamed-power-unleash",
+    "name": "Untamed Power",
+    "altTitle": "-Unleash-",
+    "series": "Dragon Ball GT",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-08",
+    "releasePrecision": "month",
+    "priceUSD": 50,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "3 faces",
+      "Tail",
+      "Crossed arms",
+      "x10 Kamehameha",
+      "Rock stand"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/untamedpowerunleash1.jpg",
+      "/uploads/untamedpowerunleash2.jpg",
+      "/uploads/untamedpowerunleash3.jpg",
+      "/uploads/untamedpowerunleash4.jpg",
+      "/uploads/untamedpowerunleash5.jpg",
+      "/uploads/untamedpowerunleash6.jpg",
+      "/uploads/untamedpowerunleash7.jpg",
+      "/uploads/untamedpowerunleash8.jpg",
+      "/uploads/untamedpowerunleash9.jpg",
+      "/uploads/untamedpowerunleash10.jpg",
+      "/uploads/untamedpowerunleash11.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "first-of-the-broken-blade-haz002",
+    "name": "Fist of the Broken Blade HAZ002",
+    "series": "Dragon Ball Z",
+    "brand": "HAZ Studio",
+    "type": "Retail",
+    "releasePrecision": "month",
+    "releaseDate": "2026-07",
+    "priceUSD": 80,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "10 faces",
+      "2 heads",
+      "Hair part",
+      "Left arm",
+      "Upper left arm",
+      "Sash part"
+    ],
+    "headerImage": "/uploads/hazstudiologo.png",
+    "images": [
+      "/uploads/haz002_1.jpg",
+      "/uploads/haz002_2.jpg",
+      "/uploads/haz002_3.jpg",
+      "/uploads/haz002_4.jpg",
+      "/uploads/haz002_5.jpg"
+    ],
+    "originX": 55,
+    "originY": 0,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "first-of-the-broken-blade-haz003",
+    "name": "Fist of the Broken Blade HAZ003",
+    "series": "Super Dragon Ball Heroes",
+    "brand": "HAZ Studio",
+    "type": "Retail",
+    "releasePrecision": "month",
+    "releaseDate": "2026-07",
+    "priceUSD": 80,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "10 faces",
+      "2 heads",
+      "Hair part",
+      "Left arm",
+      "Upper left arm",
+      "Sash part"
+    ],
+    "headerImage": "/uploads/hazstudiologo.png",
+    "images": [
+      "/uploads/haz003_1.jpg",
+      "/uploads/haz003_2.jpg",
+      "/uploads/haz003_3.jpg",
+      "/uploads/haz003_4.jpg",
+      "/uploads/haz003_5.jpg",
+      "/uploads/haz003_6.jpg"
+    ],
+    "originX": 35,
+    "originY": 10,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "ygmw-010",
+    "name": "YGMW 010",
+    "series": "Dragon Ball Z",
+    "brand": "OC Toys",
+    "type": "Retail",
+    "releaseDate": "2026-08",
+    "releasePrecision": "month",
+    "priceUSD": 70,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 heads",
+      "6 faces",
+      "5 left hands, 5 right hands",
+      "2 rapid punches effects",
+      "2 alternate arms",
+      "Ki blade",
+      "Ki blast",
+      "Alternate shoulder parts"
+    ],
+    "headerImage": "/uploads/octoyslogo.png",
+    "images": [
+      "/uploads/ygmw010_1.avif",
+      "/uploads/ygmw010_2.avif",
+      "/uploads/ygmw010_3.avif",
+      "/uploads/ygmw010_4.avif",
+      "/uploads/ygmw010_5.avif",
+      "/uploads/ygmw010_6.avif",
+      "/uploads/ygmw010_7.avif",
+      "/uploads/ygmw010_8.avif"
+    ],
+    "originX": 53,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "god-defier-01a",
+    "name": "God-Defier 01A",
+    "series": "Dragon Ball Super",
+    "brand": "Dimensionia Studio",
+    "type": "Retail",
+    "releaseDate": "2026-06",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "2 heads",
+      "12 faces",
+      "7 left hands, 8 right hands",
+      "Crossed arms",
+      "Alternate hair piece",
+      "Alternate waist piece",
+      "Ki blade effect",
+      "Ki scythe"
+    ],
+    "headerImage": "/uploads/dimensionialogo.png",
+    "images": [
+      "/uploads/dimensionia01a1.jpg",
+      "/uploads/dimensionia01a2.jpg",
+      "/uploads/dimensionia01a3.webp"
+    ],
+    "originX": 57,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+      {
+    "id": "god-defier-01b",
+    "name": "God-Defier 01B",
+    "series": "Dragon Ball Super",
+    "brand": "Dimensionia Studio",
+    "type": "Retail",
+    "releaseDate": "2026-06",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 heads",
+      "12 faces",
+      "7 left hands, 8 right hands",
+      "Crossed arms",
+      "2 alternate hair pieces",
+      "Alternate waist piece",
+      "Ki blade effect",
+      "Ki scythe"
+    ],
+    "headerImage": "/uploads/dimensionialogo.png",
+    "images": [
+      "/uploads/dimensionia01b1.jpg",
+      "/uploads/dimensionia01b2.jpg",
+      "/uploads/dimensionia01b3.jpg",
+      "/uploads/dimensionia01b4.jpg",
+      "/uploads/dimensionia01b5.webp"
+    ],
+    "originX": 67,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 3
+  },
+        {
+    "id": "god-defier-01c",
+    "name": "God-Defier 01C",
+    "series": "Dragon Ball Super",
+    "brand": "Dimensionia Studio",
+    "type": "Retail",
+    "releaseDate": "2026-06",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "2 heads",
+      "12 faces",
+      "7 left hands, 8 right hands",
+      "Crossed arms",
+      "Alternate hair piece",
+      "Alternate waist piece",
+      "Ki blade effect",
+      "Ki scythe"
+    ],
+    "headerImage": "/uploads/dimensionialogo.png",
+    "images": [
+      "/uploads/dimensionia01c1.jpg",
+      "/uploads/dimensionia01c2.jpg",
+      "/uploads/dimensionia01c3.webp"
+    ],
+    "originX": 37,
+    "originY": 15,
+    "nudgeY": 0,
+    "nudgeZoom": 2.7
+  },
+    {
+    "id": "blue-frog-03a",
+    "name": "Blue Frog 03A",
+    "series": "Dragon Ball Z",
+    "brand": "WP Model",
+    "type": "Retail",
+    "releaseDate": "2026-08",
+    "releasePrecision": "month",
+    "priceUSD": 65,
+    "heightIn": 7.8,
+    "heightMm": 200,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "3 heads",
+      "Scouter",
+      "2 Namekian Dragon Balls (5 Star and 6 Star)",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/wpmodellogo.png",
+    "images": [
+      "/uploads/bluefrog03a1.png",
+      "/uploads/bluefrog03a2.png",
+      "/uploads/bluefrog03a3.png"
+    ],
+    "originX": 50,
+    "originY": 10,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+      {
+    "id": "blue-frog-03b",
+    "name": "Blue Frog 03B",
+    "series": "Dragon Ball Z",
+    "brand": "WP Model",
+    "type": "Retail",
+    "releaseDate": "2026-08",
+    "releasePrecision": "month",
+    "priceUSD": 65,
+    "heightIn": 7.8,
+    "heightMm": 200,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "3 heads",
+      "Scouter",
+      "2 Namekian Dragon Balls (5 Star and 6 Star)",
+      "Ki blast"
+    ],
+    "headerImage": "/uploads/wpmodellogo.png",
+    "images": [
+      "/uploads/bluefrog03b1.png",
+      "/uploads/bluefrog03a3.png"
+    ],
+    "originX": 50,
+    "originY": 30,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
   }
 ]
