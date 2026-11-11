@@ -19,8 +19,8 @@ export default function FigureDetail() {
     ? fig.types.filter(Boolean)
     : (fig.type ? [fig.type] : [])
 
-  // Is this an Event Exclusive?
-  const isEventExclusive = typesArr.includes('Event Exclusive')
+  // Is this an Event Exclusive or Unreleased?
+  const isEventExclusive = typesArr.includes('Event Exclusive', 'Unreleased')
 
   // Only show the Event row when it’s an Event Exclusive AND you have text
   const showEvent = isEventExclusive && typeof fig.event === 'string' && fig.event.trim() !== ''

@@ -3143,7 +3143,7 @@
     "altTitle": "Kaioken",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
-    "type": "Retail",
+    "type": "Target Exclusive",
     "releaseDate": "2020-06-13",
     "priceUSD": 35,
     "priceJPY": 3500,
@@ -6354,7 +6354,7 @@
     "altTitle": "-180000 Power Level-",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
-    "type": "Retail",
+    "type": "Target Exclusive",
     "releaseDate": "2023-12-01",
     "priceUSD": 35,
     "heightIn": 5.46,
@@ -7494,7 +7494,7 @@
     "altTitle": "-The Lowest Born Saiyan-",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
-    "type": "Retail",
+    "type": "Target Exclusive",
     "releaseDate": "2025-03",
     "releasePrecision": "month",
     "priceUSD": 40,
@@ -15206,7 +15206,7 @@
       {
     "id": "son-gohan-z-fighters",
     "name": "Son Gohan",
-    "altTitle": "<Z Fighters>",
+    "altTitle": "<Z-Fighters>",
     "series": "Dragon Ball Z",
     "brand": "S.H.Figuarts",
     "type": "Retail",
@@ -16049,6 +16049,339 @@
     ],
     "originX": 50,
     "originY": 30,
+    "nudgeY": 0,
+    "nudgeZoom": 1.5
+  },
+    {
+    "id": "super-saiyan-4-goku-exclusive-edition",
+    "name": "Super Saiyan 4 Son Goku",
+    "altTitle": "-Exclusive Edition-",
+    "series": "Dragon Ball GT",
+    "brand": "S.H.Figuarts",
+    "type": "Event Exclusive",
+    "event": "New York Comic-Con 2026",
+    "releaseDate": "2026-10-08",
+    "priceUSD": 75,
+    "heightIn": 5.85,
+    "heightMm": 150,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "3 faces",
+      "Crossed arms",
+      "x10 Kamehameha"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssj4gokunycc1.jpg",
+      "/uploads/ssj4gokunycc2.jpg",
+      "/uploads/ssj4gokunycc3.jpg",
+      "/uploads/ssj4gokunycc4.jpg",
+      "/uploads/ssj4gokunycc5.jpg",
+      "/uploads/ssj4gokunycc6.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+   {
+    "id": "trunks-z-fighters",
+    "name": "Trunks",
+    "altTitle": "<Z-Fighters>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2027-03",
+    "releasePrecision": "month",
+    "priceUSD": 80,
+    "priceJPY": 8000,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "6 left hands, 6 right hands",
+      "4 faces",
+      "2 heads",
+      "Thigh parts with pockets",
+      "Sword",
+      "Sheath",
+      "Sheath strap",
+      "<Z-Fighters> Group Base Ver. B (only from first-run limited edition)"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/trunkszfighters1.jpg",
+      "/uploads/trunkszfighters2.jpg",
+      "/uploads/trunkszfighters3.jpg",
+      "/uploads/trunkszfighters4.jpg",
+      "/uploads/trunkszfighters5.jpg",
+      "/uploads/trunkszfighters6.jpg",
+      "/uploads/trunkszfighters7.jpg",
+      "/uploads/trunkszfighters8.jpg",
+      "/uploads/trunkszfighters9.jpg",
+      "/uploads/trunkszfighters10.jpg"
+    ],
+    "originX": 50,
+    "originY": 22,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "vegeta-z-fighters",
+    "name": "Vegeta",
+    "altTitle": "<Z-Fighters>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Retail",
+    "releaseDate": "2027-04",
+    "releasePrecision": "month",
+    "priceUSD": 38,
+    "priceJPY": 4000,
+    "heightIn": 5.27,
+    "heightMm": 135,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "1 head",
+      "Crossed arms",
+      "Android Saga feet"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/vegetazfighters1.jpg",
+      "/uploads/vegetazfighters2.jpg",
+      "/uploads/vegetazfighters3.jpg",
+      "/uploads/vegetazfighters4.jpg",
+      "/uploads/vegetazfighters5.jpg",
+      "/uploads/vegetazfighters6.jpg",
+      "/uploads/vegetazfighters7.jpg",
+      "/uploads/vegetazfighters8.jpg"
+    ],
+    "originX": 50,
+    "originY": 22,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "ultimate-gohan-super-hero-battle-scarred-edition",
+    "name": "Ultimate Son Gohan Super Hero",
+    "altTitle": "-Battle Scarred Edition-",
+    "series": "Dragon Ball Super",
+    "brand": "S.H.Figuarts",
+    "type": "Target Exclusive",
+    "releaseDate": "2026-12",
+    "releasePrecision": "month",
+    "priceUSD": 38,
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "3 left hands, 3 right hands",
+      "2 faces"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ultimategohanbse1.jpg",
+      "/uploads/ultimategohanbse2.jpg",
+      "/uploads/ultimategohanbse3.jpg",
+      "/uploads/ultimategohanbse4.jpg",
+      "/uploads/ultimategohanbse5.jpg",
+      "/uploads/ultimategohanbse6.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "ssj-goku-the-games-begin-battle-scarred-edition",
+    "name": "Super Saiyan Son Goku",
+    "altTitle": "<The Games Begin> -Battle Scarred Edition-",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Target Exclusive",
+    "releaseDate": "2026-12",
+    "releasePrecision": "month",
+    "priceUSD": 38,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "4 left hands, 4 right hands",
+      "3 faces",
+      "1 head"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssjgokugamesbeginbse1.jpg",
+      "/uploads/ssjgokugamesbeginbse2.jpg",
+      "/uploads/ssjgokugamesbeginbse3.jpg",
+      "/uploads/ssjgokugamesbeginbse4.jpg",
+      "/uploads/ssjgokugamesbeginbse5.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "son-goku-return-to-earth",
+    "name": "Son Goku",
+    "altTitle": "<Return to Earth>",
+    "series": "Dragon Ball Z",
+    "brand": "S.H.Figuarts",
+    "type": "Premium Bandai Exclusive",
+    "releaseDate": "2027-06",
+    "releasePrecision": "month",
+    "priceUSD": 65,
+    "priceJPY": 8000,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "4 faces",
+      "1 head",
+      "Alternate hair piece"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/gokureturntoearth1.jpg",
+      "/uploads/gokureturntoearth2.jpg",
+      "/uploads/gokureturntoearth3.jpg",
+      "/uploads/gokureturntoearth4.jpg",
+      "/uploads/gokureturntoearth5.jpg",
+      "/uploads/gokureturntoearth6.jpg",
+      "/uploads/gokureturntoearth7.jpg",
+      "/uploads/gokureturntoearth8.jpg",
+      "/uploads/gokureturntoearth9.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "unclean-blood",
+    "name": "Unclean Blood",
+    "series": "Dragon Ball AF",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-08",
+    "releasePrecision": "month",
+    "priceUSD": 53,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "5 left hands, 5 right hands",
+      "3 faces",
+      "Crossed arms",
+      "Ki blast effect"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/uncleanblood1.jpg",
+      "/uploads/uncleanblood2.jpg",
+      "/uploads/uncleanblood3.jpg",
+      "/uploads/uncleanblood4.jpg",
+      "/uploads/uncleanblood5.jpg",
+      "/uploads/uncleanblood6.jpg",
+      "/uploads/uncleanblood7.jpg",
+      "/uploads/uncleanblood8.jpg",
+      "/uploads/uncleanblood9.jpg",
+      "/uploads/uncleanblood10.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+      {
+    "id": "cosmic-blade",
+    "name": "Cosmic Blade",
+    "series": "Dragon Ball Super",
+    "brand": "Demoniacal Fit",
+    "type": "Retail",
+    "releaseDate": "2026-10",
+    "releasePrecision": "month",
+    "priceUSD": 75,
+    "heightIn": 5.66,
+    "heightMm": 145,
+    "materials": [
+      "ABS",
+      "PVC",
+      "POM"
+    ],
+    "accessories": [
+      "8 left hands, 8 right hands",
+      "12 faces",
+      "Crossed arms",
+      "Final Kamehameha",
+      "2 Spirit Swords"
+    ],
+    "headerImage": "/uploads/demoniacalfitlogo.png",
+    "images": [
+      "/uploads/cosmicblade1.jpg",
+      "/uploads/cosmicblade2.jpg",
+      "/uploads/cosmicblade3.jpg",
+      "/uploads/cosmicblade4.jpg",
+      "/uploads/cosmicblade5.jpg",
+      "/uploads/cosmicblade6.jpg",
+      "/uploads/cosmicblade7.jpg",
+      "/uploads/cosmicblade8.jpg",
+      "/uploads/cosmicblade9.jpg",
+      "/uploads/cosmicblade10.jpg",
+      "/uploads/cosmicblade11.jpg",
+      "/uploads/cosmicblade12.jpg"
+    ],
+    "originX": 50,
+    "originY": 25,
+    "nudgeY": 0,
+    "nudgeZoom": 2
+  },
+    {
+    "id": "super-saiyan-3-vegeta",
+    "name": "Super Saiyan 3 Vegeta",
+    "series": "Dragon Ball: Raging Blast",
+    "brand": "S.H.Figuarts",
+    "type": "Unreleased",
+    "heightIn": 5.46,
+    "heightMm": 140,
+    "materials": [
+      "ABS",
+      "PVC"
+    ],
+    "headerImage": "/uploads/shflogo.png",
+    "images": [
+      "/uploads/ssj3vegeta1.jpg"
+    ],
+    "originX": 50,
+    "originY": 20,
     "nudgeY": 0,
     "nudgeZoom": 1.5
   }
